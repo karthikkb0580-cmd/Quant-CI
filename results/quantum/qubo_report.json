@@ -1,0 +1,42 @@
+{
+    "partition": "validation",
+    "run_id": "activemq:PR-993:5:single",
+    "test_variables": 10,
+    "slack_variables": 5,
+    "total_binary_variables": 15,
+    "possible_states": 32768,
+    "matrix_shape": [
+        15,
+        15
+    ],
+    "budget_seconds": 120.0,
+    "duration_unit_seconds": 5.0,
+    "budget_units": 24,
+    "duration_units": [
+        3,
+        76,
+        11,
+        2,
+        11,
+        3,
+        1,
+        4,
+        4,
+        2
+    ],
+    "slack_weights": [
+        1,
+        2,
+        4,
+        8,
+        9
+    ],
+    "constraint_penalty": 6.181527000028567,
+    "constant_offset": 3560.5595520164547,
+    "total_risk": 5.181527000028567,
+    "redundancy_penalty": 0.1,
+    "matrix_nonzero_coefficients": 120,
+    "maximum_energy_verification_error": 1.4551915228366852e-11,
+    "energy_verification_passed": true,
+    "matrix_convention": "upper_triangular"
+}
