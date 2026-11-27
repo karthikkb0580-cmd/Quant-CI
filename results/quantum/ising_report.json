@@ -1,0 +1,42 @@
+{
+    "run_id": "activemq:PR-993:5:single",
+    "qubits": 15,
+    "test_qubits": 10,
+    "slack_qubits": 5,
+    "linear_terms": 15,
+    "quadratic_terms": 105,
+    "pauli_terms": 120,
+    "ising_offset": 23011.23425760634,
+    "exact_qubo_energy": -3.5542602681071003,
+    "exact_ising_energy": -3.554260268107555,
+    "exact_operator_energy": -3.5542602681125572,
+    "exact_operator_energy_without_offset": -23014.78851787445,
+    "optimal_bitstring": "001011111101001",
+    "optimal_binary_state": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+    ],
+    "bit_order": "qiskit_little_endian",
+    "identity_offset_in_operator": false,
+    "verification": {
+        "states_verified": 32768,
+        "maximum_energy_error": 2.9103830456733704e-11,
+        "minimum_qubo_energy": -3.5542602681071003,
+        "minimum_ising_energy": -3.5542602681052813,
+        "verification_seconds": 0.010201500030234456,
+        "verification_passed": true
+    }
+}
