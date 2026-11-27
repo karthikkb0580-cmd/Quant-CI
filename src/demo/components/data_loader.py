@@ -46,7 +46,7 @@ def show_plot(filename):
     if path.exists():
         st.image(
             str(path),
-            use_container_width=True,
+            width="stretch",
         )
     else:
         st.info(f"Plot not available: {filename}")

@@ -168,7 +168,7 @@ def overview():
         st.dataframe(
             normalized.head(10),
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
         )
 
 
@@ -242,7 +242,7 @@ def dataset_intelligence():
 
     st.plotly_chart(
         style_chart(figure),
-        use_container_width=True,
+        width="stretch",
     )
 
     left, right = st.columns(2)
@@ -282,7 +282,7 @@ def dataset_intelligence():
 
     st.dataframe(
         filtered.head(1000),
-        use_container_width=True,
+        width="stretch",
         hide_index=True,
     )
 
@@ -395,13 +395,13 @@ def ml_intelligence():
 
         st.plotly_chart(
             style_chart(figure),
-            use_container_width=True,
+            width="stretch",
         )
 
         st.dataframe(
             dataframe,
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
         )
 
     section_label("Model evaluation report")
@@ -502,12 +502,12 @@ def test_optimizer():
     st.dataframe(
         candidates.head(20),
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
 
     if st.button(
         "Run Optimization",
-        use_container_width=True,
+        width="stretch",
     ):
         with st.spinner(
             "Optimizing test selection..."
@@ -607,7 +607,7 @@ def test_optimizer():
                 ]
             ],
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
         )
 
         st.download_button(
@@ -615,7 +615,7 @@ def test_optimizer():
             selected.to_csv(index=False),
             file_name="quantci_selected_tests.csv",
             mime="text/csv",
-            use_container_width=True,
+            width="stretch",
         )
 
 
@@ -715,7 +715,7 @@ def quantum_laboratory():
 
         st.plotly_chart(
             style_chart(figure),
-            use_container_width=True,
+            width="stretch",
         )
 
         figure = px.bar(
@@ -729,13 +729,13 @@ def quantum_laboratory():
 
         st.plotly_chart(
             style_chart(figure),
-            use_container_width=True,
+            width="stretch",
         )
 
         st.dataframe(
             summary,
             hide_index=True,
-            use_container_width=True,
+            width="stretch",
         )
 
     st.warning(
@@ -811,7 +811,7 @@ def research_analytics():
 
     st.plotly_chart(
         style_chart(figure),
-        use_container_width=True,
+        width="stretch",
     )
 
     section_label("Execution cost reduction")
@@ -827,7 +827,7 @@ def research_analytics():
 
     st.plotly_chart(
         style_chart(figure),
-        use_container_width=True,
+        width="stretch",
     )
 
     section_label("Budget-specific results")
@@ -835,7 +835,7 @@ def research_analytics():
     st.dataframe(
         filtered,
         hide_index=True,
-        use_container_width=True,
+        width="stretch",
     )
 
     st.download_button(

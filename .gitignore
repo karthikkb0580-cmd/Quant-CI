@@ -42,3 +42,5 @@ results/optimization/*_trace.csv
 results/heldout/*_selected_tests.csv
 results/quantum_experiments/**/measurements.csv
 .streamlit/secrets.toml
+!results/final_test_predictions.csv
+!results/final_validation_predictions.csv

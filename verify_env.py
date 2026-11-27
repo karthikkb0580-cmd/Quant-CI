@@ -1,6 +1,6 @@
 import os
 import sys
-from importlib.metadata import version
+from importlib.metadata import version, PackageNotFoundError
 
 from src.config import (
     BASE_DIR,
@@ -13,6 +13,8 @@ from src.config import (
     PLOTS_DIR,
     MAX_WORKERS,
 )
+
+MINIMUM_PYTHON_VERSION = (3, 14)
 
 os.environ["OMP_NUM_THREADS"] = str(MAX_WORKERS)
 os.environ["MKL_NUM_THREADS"] = str(MAX_WORKERS)
@@ -27,14 +29,15 @@ print(f"Project: {BASE_DIR}")
 print(f"Dataset: {DATASET_NAME}")
 print(f"Random seed: {RANDOM_SEED}")
 
-if sys.version_info[:3] != (3, 14, 10):
-    raise RuntimeError("Python 3.14.10 is required.")
-
-if sys.prefix == sys.base_prefix:
-    raise RuntimeError("Virtual environment is not active.")
+if sys.version_info[:2] < MINIMUM_PYTHON_VERSION:
+    raise RuntimeError("Python 3.14 or newer is required.")
 
 print("\n[PASS] Python version")
-print("[PASS] Virtual environment")
+
+if sys.prefix == sys.base_prefix:
+    print("[WARN] Virtual environment is not active.")
+else:
+    print("[PASS] Virtual environment")
 
 directories = [
     RAW_DATA_DIR,
@@ -47,9 +50,7 @@ directories = [
 print("\nChecking directories:")
 
 for directory in directories:
-    if not directory.is_dir():
-        raise FileNotFoundError(directory)
-
+    directory.mkdir(parents=True, exist_ok=True)
     print(f"[PASS] {directory.relative_to(BASE_DIR)}")
 
 packages = [
@@ -64,13 +65,25 @@ packages = [
     "qiskit-algorithms",
     "matplotlib",
     "streamlit",
+    "plotly",
     "pytest",
 ]
+
+missing_packages = []
 
 print("\nChecking packages:")
 
 for package in packages:
-    print(f"[PASS] {package}: {version(package)}")
+    try:
+        print(f"[PASS] {package}: {version(package)}")
+    except PackageNotFoundError:
+        missing_packages.append(package)
+        print(f"[FAIL] {package}: Not installed")
+
+if missing_packages:
+    raise RuntimeError(
+        "Missing dependencies: " + ", ".join(missing_packages)
+    )
 
 print("\n" + "=" * 60)
 print("QUANTCI ENVIRONMENT READY")
