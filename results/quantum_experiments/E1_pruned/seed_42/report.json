@@ -1,0 +1,38 @@
+{
+    "shots": 1024,
+    "unique_measurements": 974,
+    "feasible_shots": 28,
+    "feasible_measurement_rate": 0.02734375,
+    "optimal_shots": 0,
+    "optimal_measurement_rate": 0.0,
+    "feasible_solution_found": true,
+    "best_bitstring": "00000101110011",
+    "best_objective": 3.0941943470658,
+    "best_energy": -3.0941943470652404,
+    "approximation_ratio": 0.8705593045142016,
+    "objective_gap": 0.46006592104132693,
+    "selected_count": 6,
+    "estimated_duration_seconds": 105.89850000000001,
+    "experiment": "E1_pruned",
+    "seed": 42,
+    "qubits": 14,
+    "reps": 1,
+    "max_iterations": 50,
+    "optimizer_evaluations": 29,
+    "hamiltonian_scale": 577.7255072895206,
+    "exact_objective": 3.554260268107127,
+    "expected_qubo_energy": 1109.054303009494,
+    "initial_point": [
+        0.4,
+        0.8
+    ],
+    "optimal_parameters": [
+        1.480786887282515,
+        1.909059514879118
+    ],
+    "circuit_depth": 28,
+    "rzz_gates": 91,
+    "optimization_seconds": 1.5632647001184523,
+    "sampling_seconds": 0.0161035000346601,
+    "total_seconds": 1.8462908000219613
+}

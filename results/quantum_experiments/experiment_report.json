@@ -1,0 +1,57 @@
+{
+    "partition": "validation",
+    "run_id": "activemq:PR-993:5:single",
+    "total_experiments": 12,
+    "configurations": 4,
+    "seeds": [
+        42,
+        123,
+        2026
+    ],
+    "successful_experiments": 12,
+    "optimal_solution_experiments": 6,
+    "baseline_approximation_ratio": 0.2764610245969469,
+    "baseline_feasible_measurement_rate": 0.001953125,
+    "exact_objective": 3.554260268107127,
+    "best_experiment": {
+        "shots": 4096,
+        "unique_measurements": 3290,
+        "feasible_shots": 252,
+        "feasible_measurement_rate": 0.0615234375,
+        "optimal_shots": 1,
+        "optimal_measurement_rate": 0.000244140625,
+        "feasible_solution_found": true,
+        "best_bitstring": "00101111110101",
+        "best_objective": 3.554260268107127,
+        "best_energy": -3.5542602681071003,
+        "approximation_ratio": 1.0,
+        "objective_gap": 0.0,
+        "selected_count": 7,
+        "estimated_duration_seconds": 79.4555,
+        "experiment": "E2_more_shots",
+        "seed": 123,
+        "qubits": 14,
+        "reps": 1,
+        "max_iterations": 50,
+        "optimizer_evaluations": 32,
+        "hamiltonian_scale": 577.7255072895206,
+        "exact_objective": 3.554260268107127,
+        "expected_qubo_energy": 255.80030971329404,
+        "initial_point": [
+            0.7141166769233291,
+            0.14843891692200042
+        ],
+        "optimal_parameters": [
+            2.8242212778595728,
+            0.3809084826150248
+        ],
+        "circuit_depth": 28,
+        "rzz_gates": 91,
+        "optimization_seconds": 2.6185930999927223,
+        "sampling_seconds": 0.023910999996587634,
+        "total_seconds": 3.14386980002746
+    },
+    "total_experiment_seconds": 40.351210799999535,
+    "evaluation_type": "single_validation_instance",
+    "classical_repair_used": false
+}

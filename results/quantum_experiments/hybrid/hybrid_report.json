@@ -1,0 +1,21 @@
+{
+    "algorithm": "qaoa_with_classical_slack_repair",
+    "partition": "validation",
+    "run_id": "activemq:PR-993:5:single",
+    "total_experiments": 12,
+    "total_shots": 39936,
+    "raw_feasible_shots": 1997,
+    "hybrid_feasible_shots": 31571,
+    "total_recovered_shots": 29574,
+    "raw_optimal_runs": 6,
+    "hybrid_optimal_runs": 12,
+    "raw_mean_approximation_ratio": 0.939037512906639,
+    "hybrid_mean_approximation_ratio": 1.0,
+    "raw_mean_feasibility_rate": 0.048075358072916664,
+    "hybrid_mean_feasibility_rate": 0.7836100260416666,
+    "exact_objective": 3.554260268107127,
+    "test_selection_modified": false,
+    "quantum_circuit_rerun": false,
+    "classical_fallback_used": false,
+    "total_repair_seconds": 7.365811299998313
+}
