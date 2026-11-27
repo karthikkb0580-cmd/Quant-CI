@@ -329,3 +329,34 @@ HYBRID_RATIO_PLOT = PLOTS_DIR / "hybrid_approximation_comparison.png"
 HYBRID_FEASIBILITY_PLOT = PLOTS_DIR / "hybrid_feasibility_comparison.png"
 
 HYBRID_TOLERANCE = 1e-7
+
+BENCHMARK_RESULTS_DIR = RESULTS_DIR / "benchmark"
+
+RANDOM_SAMPLING_RESULTS_DIR = BENCHMARK_RESULTS_DIR / "random_sampling"
+
+RANDOM_SAMPLING_REPORT_FILE = RANDOM_SAMPLING_RESULTS_DIR / "random_sampling_report.json"
+
+RANDOM_SAMPLING_SUMMARY_FILE = RANDOM_SAMPLING_RESULTS_DIR / "random_sampling_summary.csv"
+
+RANDOM_SAMPLING_AGGREGATE_FILE = RANDOM_SAMPLING_RESULTS_DIR / "random_sampling_aggregate.csv"
+
+RANDOM_QAOA_COMPARISON_FILE = BENCHMARK_RESULTS_DIR / "random_qaoa_comparison.csv"
+
+RANDOM_QAOA_RATIO_PLOT = PLOTS_DIR / "random_qaoa_comparison.png"
+
+RANDOM_QAOA_FEASIBILITY_PLOT = PLOTS_DIR / "random_qaoa_feasibility.png"
+
+RANDOM_SAMPLING_TOLERANCE = 1e-7
+
+UNIFIED_BENCHMARK_REPORT = BENCHMARK_RESULTS_DIR / "unified_benchmark_report.json"
+UNIFIED_BENCHMARK_SUMMARY = BENCHMARK_RESULTS_DIR / "unified_benchmark_summary.csv"
+UNIFIED_BENCHMARK_SELECTIONS = BENCHMARK_RESULTS_DIR / "unified_benchmark_selections.csv"
+
+UNIFIED_OBJECTIVE_PLOT = PLOTS_DIR / "unified_objective_comparison.png"
+UNIFIED_RATIO_PLOT = PLOTS_DIR / "unified_approximation_comparison.png"
+UNIFIED_RUNTIME_PLOT = PLOTS_DIR / "unified_runtime_comparison.png"
+UNIFIED_SUCCESS_PLOT = PLOTS_DIR / "unified_optimal_success.png"
+
+BENCHMARK_CLASSICAL_REPETITIONS = 12
+BENCHMARK_TOLERANCE = 1e-7
+

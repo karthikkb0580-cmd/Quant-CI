@@ -1,0 +1,52 @@
+{
+    "partition": "validation",
+    "run_id": "activemq:PR-993:5:single",
+    "matched_experiments": 12,
+    "independent_random_seed_shot_pairs": 6,
+    "variables": 14,
+    "budget_seconds": 120.0,
+    "exact_objective": 3.554260268107127,
+    "total_random_shots": 39936,
+    "algorithms": {
+        "random_raw": {
+            "successful_runs": 12,
+            "mean_approximation_ratio": 0.8955666134001258,
+            "mean_feasibility_rate": 0.02886962890625,
+            "optimal_runs": 3,
+            "mean_runtime_seconds": 0.4046179332848017
+        },
+        "random_hybrid": {
+            "successful_runs": 12,
+            "mean_approximation_ratio": 1.0,
+            "mean_feasibility_rate": 0.6789143880208334,
+            "optimal_runs": 12,
+            "mean_runtime_seconds": 0.914329483329008
+        },
+        "qaoa_raw": {
+            "successful_runs": 12,
+            "mean_approximation_ratio": 0.939037512906639,
+            "mean_feasibility_rate": 0.048075358072916664,
+            "optimal_runs": 6,
+            "mean_runtime_seconds": 3.3532866750028916
+        },
+        "qaoa_hybrid": {
+            "successful_runs": 12,
+            "mean_approximation_ratio": 1.0,
+            "mean_feasibility_rate": 0.7836100260416666,
+            "optimal_runs": 12,
+            "mean_runtime_seconds": 3.9633178332975754
+        }
+    },
+    "hybrid_comparison": {
+        "comparable_runs": 12,
+        "qaoa_better": 0,
+        "random_better": 0,
+        "equal": 12,
+        "mean_ratio_difference": 0.0
+    },
+    "same_final_sampling_budget": true,
+    "same_slack_repair": true,
+    "quantum_optimizer_evaluations_matched": false,
+    "evaluation_type": "single_validation_instance",
+    "total_seconds": 11.352534100180492
+}
