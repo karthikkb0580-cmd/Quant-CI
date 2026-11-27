@@ -1,0 +1,27 @@
+{
+    "metadata_runs": 207,
+    "test_archives": 446,
+    "matched_runs": 207,
+    "unmatched_archives": 239,
+    "metadata_without_archive": 0,
+    "total_test_rows": 379243,
+    "matched_test_rows": 159402,
+    "outcome_counts": {
+        "0": 378742,
+        "1": 501
+    },
+    "matched_outcome_counts": {
+        "0": 159045,
+        "1": 357
+    },
+    "previous_outcome_counts": {
+        "0": 378746,
+        "1": 497
+    },
+    "missing_test_names": 0,
+    "missing_outcomes": 0,
+    "invalid_durations": 0,
+    "duplicate_test_classes": 0,
+    "missing_commit_data": 0,
+    "median_duration_ratio": 1.0
+}

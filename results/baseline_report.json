@@ -1,0 +1,522 @@
+{
+    "global_training_failure_rate": 0.002839163703386517,
+    "random_seed": 42,
+    "selection_metric": "average_precision",
+    "selection_partition": "validation",
+    "best_baseline": "smoothed_historical_probability",
+    "training": {
+        "majority_class": {
+            "classification": {
+                "threshold": 0.5,
+                "accuracy": 0.9971608362966135,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "roc_auc": 0.5,
+                "average_precision": 0.002839163703386517,
+                "true_negatives": 107121,
+                "false_positives": 0,
+                "false_negatives": 305,
+                "true_positives": 0,
+                "predicted_failures": 0
+            },
+            "ranking": {
+                "top_10_percent": {
+                    "selected_tests": 10825,
+                    "detected_failures": 40,
+                    "total_failures": 305,
+                    "recall": 0.13114754098360656,
+                    "precision": 0.003695150115473441,
+                    "selection_rate": 0.10076703963658705,
+                    "failure_runs_detected": 27,
+                    "total_failure_runs": 86,
+                    "failure_run_detection_rate": 0.313953488372093
+                },
+                "top_20_percent": {
+                    "selected_tests": 21540,
+                    "detected_failures": 74,
+                    "total_failures": 305,
+                    "recall": 0.24262295081967214,
+                    "precision": 0.003435468895078923,
+                    "selection_rate": 0.2005101185932642,
+                    "failure_runs_detected": 42,
+                    "total_failure_runs": 86,
+                    "failure_run_detection_rate": 0.4883720930232558
+                },
+                "top_50_percent": {
+                    "selected_tests": 53751,
+                    "detected_failures": 170,
+                    "total_failures": 305,
+                    "recall": 0.5573770491803278,
+                    "precision": 0.0031627318561515136,
+                    "selection_rate": 0.5003537318712415,
+                    "failure_runs_detected": 63,
+                    "total_failure_runs": 86,
+                    "failure_run_detection_rate": 0.7325581395348837
+                }
+            }
+        },
+        "random_ranking": {
+            "classification": {
+                "threshold": 0.5,
+                "accuracy": 0.4968071044253719,
+                "precision": 0.002572692442947306,
+                "recall": 0.4557377049180328,
+                "f1_score": 0.005116501638016711,
+                "roc_auc": 0.46520779856577077,
+                "average_precision": 0.002596845353948477,
+                "true_negatives": 53231,
+                "false_positives": 53890,
+                "false_negatives": 166,
+                "true_positives": 139,
+                "predicted_failures": 54029
+            },
+            "ranking": {
+                "top_10_percent": {
+                    "selected_tests": 10825,
+                    "detected_failures": 29,
+                    "total_failures": 305,
+                    "recall": 0.09508196721311475,
+                    "precision": 0.002678983833718245,
+                    "selection_rate": 0.10076703963658705,
+                    "failure_runs_detected": 20,
+                    "total_failure_runs": 86,
+                    "failure_run_detection_rate": 0.23255813953488372
+                },
+                "top_20_percent": {
+                    "selected_tests": 21540,
+                    "detected_failures": 49,
+                    "total_failures": 305,
+                    "recall": 0.16065573770491803,
+                    "precision": 0.0022748375116063138,
+                    "selection_rate": 0.2005101185932642,
+                    "failure_runs_detected": 31,
+                    "total_failure_runs": 86,
+                    "failure_run_detection_rate": 0.36046511627906974
+                },
+                "top_50_percent": {
+                    "selected_tests": 53751,
+                    "detected_failures": 135,
+                    "total_failures": 305,
+                    "recall": 0.4426229508196721,
+                    "precision": 0.0025115811798850254,
+                    "selection_rate": 0.5003537318712415,
+                    "failure_runs_detected": 56,
+                    "total_failure_runs": 86,
+                    "failure_run_detection_rate": 0.6511627906976745
+                }
+            }
+        },
+        "global_failure_probability": {
+            "classification": {
+                "threshold": 0.5,
+                "accuracy": 0.9971608362966135,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "roc_auc": 0.5,
+                "average_precision": 0.002839163703386517,
+                "true_negatives": 107121,
+                "false_positives": 0,
+                "false_negatives": 305,
+                "true_positives": 0,
+                "predicted_failures": 0
+            },
+            "ranking": {
+                "top_10_percent": {
+                    "selected_tests": 10825,
+                    "detected_failures": 40,
+                    "total_failures": 305,
+                    "recall": 0.13114754098360656,
+                    "precision": 0.003695150115473441,
+                    "selection_rate": 0.10076703963658705,
+                    "failure_runs_detected": 27,
+                    "total_failure_runs": 86,
+                    "failure_run_detection_rate": 0.313953488372093
+                },
+                "top_20_percent": {
+                    "selected_tests": 21540,
+                    "detected_failures": 74,
+                    "total_failures": 305,
+                    "recall": 0.24262295081967214,
+                    "precision": 0.003435468895078923,
+                    "selection_rate": 0.2005101185932642,
+                    "failure_runs_detected": 42,
+                    "total_failure_runs": 86,
+                    "failure_run_detection_rate": 0.4883720930232558
+                },
+                "top_50_percent": {
+                    "selected_tests": 53751,
+                    "detected_failures": 170,
+                    "total_failures": 305,
+                    "recall": 0.5573770491803278,
+                    "precision": 0.0031627318561515136,
+                    "selection_rate": 0.5003537318712415,
+                    "failure_runs_detected": 63,
+                    "total_failure_runs": 86,
+                    "failure_run_detection_rate": 0.7325581395348837
+                }
+            }
+        },
+        "historical_failure_rate": {
+            "classification": {
+                "threshold": 0.5,
+                "accuracy": 0.9970677489620762,
+                "precision": 0.43243243243243246,
+                "recall": 0.10491803278688525,
+                "f1_score": 0.16886543535620052,
+                "roc_auc": 0.7263993636122533,
+                "average_precision": 0.11460232206198169,
+                "true_negatives": 107079,
+                "false_positives": 42,
+                "false_negatives": 273,
+                "true_positives": 32,
+                "predicted_failures": 74
+            },
+            "ranking": {
+                "top_10_percent": {
+                    "selected_tests": 10825,
+                    "detected_failures": 161,
+                    "total_failures": 305,
+                    "recall": 0.5278688524590164,
+                    "precision": 0.014872979214780601,
+                    "selection_rate": 0.10076703963658705,
+                    "failure_runs_detected": 67,
+                    "total_failure_runs": 86,
+                    "failure_run_detection_rate": 0.7790697674418605
+                },
+                "top_20_percent": {
+                    "selected_tests": 21540,
+                    "detected_failures": 178,
+                    "total_failures": 305,
+                    "recall": 0.5836065573770491,
+                    "precision": 0.008263695450324977,
+                    "selection_rate": 0.2005101185932642,
+                    "failure_runs_detected": 72,
+                    "total_failure_runs": 86,
+                    "failure_run_detection_rate": 0.8372093023255814
+                },
+                "top_50_percent": {
+                    "selected_tests": 53751,
+                    "detected_failures": 231,
+                    "total_failures": 305,
+                    "recall": 0.7573770491803279,
+                    "precision": 0.004297594463358821,
+                    "selection_rate": 0.5003537318712415,
+                    "failure_runs_detected": 78,
+                    "total_failure_runs": 86,
+                    "failure_run_detection_rate": 0.9069767441860465
+                }
+            }
+        },
+        "smoothed_historical_probability": {
+            "classification": {
+                "threshold": 0.5,
+                "accuracy": 0.9971608362966135,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "roc_auc": 0.7993541545863334,
+                "average_precision": 0.045772065250283364,
+                "true_negatives": 107121,
+                "false_positives": 0,
+                "false_negatives": 305,
+                "true_positives": 0,
+                "predicted_failures": 0
+            },
+            "ranking": {
+                "top_10_percent": {
+                    "selected_tests": 10825,
+                    "detected_failures": 170,
+                    "total_failures": 305,
+                    "recall": 0.5573770491803278,
+                    "precision": 0.015704387990762125,
+                    "selection_rate": 0.10076703963658705,
+                    "failure_runs_detected": 68,
+                    "total_failure_runs": 86,
+                    "failure_run_detection_rate": 0.7906976744186046
+                },
+                "top_20_percent": {
+                    "selected_tests": 21540,
+                    "detected_failures": 207,
+                    "total_failures": 305,
+                    "recall": 0.6786885245901639,
+                    "precision": 0.009610027855153204,
+                    "selection_rate": 0.2005101185932642,
+                    "failure_runs_detected": 75,
+                    "total_failure_runs": 86,
+                    "failure_run_detection_rate": 0.872093023255814
+                },
+                "top_50_percent": {
+                    "selected_tests": 53751,
+                    "detected_failures": 263,
+                    "total_failures": 305,
+                    "recall": 0.8622950819672132,
+                    "precision": 0.004892932224516753,
+                    "selection_rate": 0.5003537318712415,
+                    "failure_runs_detected": 82,
+                    "total_failure_runs": 86,
+                    "failure_run_detection_rate": 0.9534883720930233
+                }
+            }
+        }
+    },
+    "validation": {
+        "majority_class": {
+            "classification": {
+                "threshold": 0.5,
+                "accuracy": 0.9984704423315419,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "roc_auc": 0.5,
+                "average_precision": 0.0015295576684580404,
+                "true_negatives": 24153,
+                "false_positives": 0,
+                "false_negatives": 37,
+                "true_positives": 0,
+                "predicted_failures": 0
+            },
+            "ranking": {
+                "top_10_percent": {
+                    "selected_tests": 2436,
+                    "detected_failures": 4,
+                    "total_failures": 37,
+                    "recall": 0.10810810810810811,
+                    "precision": 0.0016420361247947454,
+                    "selection_rate": 0.1007027697395618,
+                    "failure_runs_detected": 2,
+                    "total_failure_runs": 12,
+                    "failure_run_detection_rate": 0.16666666666666666
+                },
+                "top_20_percent": {
+                    "selected_tests": 4851,
+                    "detected_failures": 6,
+                    "total_failures": 37,
+                    "recall": 0.16216216216216217,
+                    "precision": 0.0012368583797155227,
+                    "selection_rate": 0.20053741215378257,
+                    "failure_runs_detected": 3,
+                    "total_failure_runs": 12,
+                    "failure_run_detection_rate": 0.25
+                },
+                "top_50_percent": {
+                    "selected_tests": 12101,
+                    "detected_failures": 21,
+                    "total_failures": 37,
+                    "recall": 0.5675675675675675,
+                    "precision": 0.001735393769109991,
+                    "selection_rate": 0.5002480363786689,
+                    "failure_runs_detected": 7,
+                    "total_failure_runs": 12,
+                    "failure_run_detection_rate": 0.5833333333333334
+                }
+            }
+        },
+        "random_ranking": {
+            "classification": {
+                "threshold": 0.5,
+                "accuracy": 0.49743695742042165,
+                "precision": 0.0013987164719433932,
+                "recall": 0.4594594594594595,
+                "f1_score": 0.0027889426626199654,
+                "roc_auc": 0.5147768561009153,
+                "average_precision": 0.002758748774082472,
+                "true_negatives": 12016,
+                "false_positives": 12137,
+                "false_negatives": 20,
+                "true_positives": 17,
+                "predicted_failures": 12154
+            },
+            "ranking": {
+                "top_10_percent": {
+                    "selected_tests": 2436,
+                    "detected_failures": 2,
+                    "total_failures": 37,
+                    "recall": 0.05405405405405406,
+                    "precision": 0.0008210180623973727,
+                    "selection_rate": 0.1007027697395618,
+                    "failure_runs_detected": 2,
+                    "total_failure_runs": 12,
+                    "failure_run_detection_rate": 0.16666666666666666
+                },
+                "top_20_percent": {
+                    "selected_tests": 4851,
+                    "detected_failures": 7,
+                    "total_failures": 37,
+                    "recall": 0.1891891891891892,
+                    "precision": 0.001443001443001443,
+                    "selection_rate": 0.20053741215378257,
+                    "failure_runs_detected": 4,
+                    "total_failure_runs": 12,
+                    "failure_run_detection_rate": 0.3333333333333333
+                },
+                "top_50_percent": {
+                    "selected_tests": 12101,
+                    "detected_failures": 16,
+                    "total_failures": 37,
+                    "recall": 0.43243243243243246,
+                    "precision": 0.001322204776464755,
+                    "selection_rate": 0.5002480363786689,
+                    "failure_runs_detected": 8,
+                    "total_failure_runs": 12,
+                    "failure_run_detection_rate": 0.6666666666666666
+                }
+            }
+        },
+        "global_failure_probability": {
+            "classification": {
+                "threshold": 0.5,
+                "accuracy": 0.9984704423315419,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "roc_auc": 0.5,
+                "average_precision": 0.0015295576684580404,
+                "true_negatives": 24153,
+                "false_positives": 0,
+                "false_negatives": 37,
+                "true_positives": 0,
+                "predicted_failures": 0
+            },
+            "ranking": {
+                "top_10_percent": {
+                    "selected_tests": 2436,
+                    "detected_failures": 4,
+                    "total_failures": 37,
+                    "recall": 0.10810810810810811,
+                    "precision": 0.0016420361247947454,
+                    "selection_rate": 0.1007027697395618,
+                    "failure_runs_detected": 2,
+                    "total_failure_runs": 12,
+                    "failure_run_detection_rate": 0.16666666666666666
+                },
+                "top_20_percent": {
+                    "selected_tests": 4851,
+                    "detected_failures": 6,
+                    "total_failures": 37,
+                    "recall": 0.16216216216216217,
+                    "precision": 0.0012368583797155227,
+                    "selection_rate": 0.20053741215378257,
+                    "failure_runs_detected": 3,
+                    "total_failure_runs": 12,
+                    "failure_run_detection_rate": 0.25
+                },
+                "top_50_percent": {
+                    "selected_tests": 12101,
+                    "detected_failures": 21,
+                    "total_failures": 37,
+                    "recall": 0.5675675675675675,
+                    "precision": 0.001735393769109991,
+                    "selection_rate": 0.5002480363786689,
+                    "failure_runs_detected": 7,
+                    "total_failure_runs": 12,
+                    "failure_run_detection_rate": 0.5833333333333334
+                }
+            }
+        },
+        "historical_failure_rate": {
+            "classification": {
+                "threshold": 0.5,
+                "accuracy": 0.9984704423315419,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "roc_auc": 0.9001472594193995,
+                "average_precision": 0.027067746698931115,
+                "true_negatives": 24153,
+                "false_positives": 0,
+                "false_negatives": 37,
+                "true_positives": 0,
+                "predicted_failures": 0
+            },
+            "ranking": {
+                "top_10_percent": {
+                    "selected_tests": 2436,
+                    "detected_failures": 33,
+                    "total_failures": 37,
+                    "recall": 0.8918918918918919,
+                    "precision": 0.013546798029556651,
+                    "selection_rate": 0.1007027697395618,
+                    "failure_runs_detected": 10,
+                    "total_failure_runs": 12,
+                    "failure_run_detection_rate": 0.8333333333333334
+                },
+                "top_20_percent": {
+                    "selected_tests": 4851,
+                    "detected_failures": 33,
+                    "total_failures": 37,
+                    "recall": 0.8918918918918919,
+                    "precision": 0.006802721088435374,
+                    "selection_rate": 0.20053741215378257,
+                    "failure_runs_detected": 10,
+                    "total_failure_runs": 12,
+                    "failure_run_detection_rate": 0.8333333333333334
+                },
+                "top_50_percent": {
+                    "selected_tests": 12101,
+                    "detected_failures": 34,
+                    "total_failures": 37,
+                    "recall": 0.918918918918919,
+                    "precision": 0.0028096851499876045,
+                    "selection_rate": 0.5002480363786689,
+                    "failure_runs_detected": 11,
+                    "total_failure_runs": 12,
+                    "failure_run_detection_rate": 0.9166666666666666
+                }
+            }
+        },
+        "smoothed_historical_probability": {
+            "classification": {
+                "threshold": 0.5,
+                "accuracy": 0.9984704423315419,
+                "precision": 0.0,
+                "recall": 0.0,
+                "f1_score": 0.0,
+                "roc_auc": 0.9138745005097012,
+                "average_precision": 0.030272130406580645,
+                "true_negatives": 24153,
+                "false_positives": 0,
+                "false_negatives": 37,
+                "true_positives": 0,
+                "predicted_failures": 0
+            },
+            "ranking": {
+                "top_10_percent": {
+                    "selected_tests": 2436,
+                    "detected_failures": 33,
+                    "total_failures": 37,
+                    "recall": 0.8918918918918919,
+                    "precision": 0.013546798029556651,
+                    "selection_rate": 0.1007027697395618,
+                    "failure_runs_detected": 10,
+                    "total_failure_runs": 12,
+                    "failure_run_detection_rate": 0.8333333333333334
+                },
+                "top_20_percent": {
+                    "selected_tests": 4851,
+                    "detected_failures": 35,
+                    "total_failures": 37,
+                    "recall": 0.9459459459459459,
+                    "precision": 0.007215007215007215,
+                    "selection_rate": 0.20053741215378257,
+                    "failure_runs_detected": 11,
+                    "total_failure_runs": 12,
+                    "failure_run_detection_rate": 0.9166666666666666
+                },
+                "top_50_percent": {
+                    "selected_tests": 12101,
+                    "detected_failures": 37,
+                    "total_failures": 37,
+                    "recall": 1.0,
+                    "precision": 0.003057598545574746,
+                    "selection_rate": 0.5002480363786689,
+                    "failure_runs_detected": 12,
+                    "total_failure_runs": 12,
+                    "failure_run_detection_rate": 1.0
+                }
+            }
+        }
+    },
+    "test_evaluation": "deferred"
+}

@@ -1,0 +1,59 @@
+{
+    "training": {
+        "rows": 107426,
+        "columns": 41,
+        "failed_tests": 305,
+        "historical_features": 16,
+        "cold_start_rows": 1111,
+        "mean_historical_executions": 54.15256083257312,
+        "mean_historical_failure_rate": 0.003001485423086631,
+        "mean_estimated_duration": 19.805565737400777,
+        "median_estimated_duration": 3.262,
+        "missing_historical_values": 0
+    },
+    "validation": {
+        "rows": 24190,
+        "columns": 41,
+        "failed_tests": 37,
+        "historical_features": 16,
+        "cold_start_rows": 3,
+        "mean_historical_executions": 119.57007027697395,
+        "mean_historical_failure_rate": 0.002529908673364217,
+        "mean_estimated_duration": 19.448821522792244,
+        "median_estimated_duration": 3.026,
+        "missing_historical_values": 0
+    },
+    "testing": {
+        "rows": 27786,
+        "columns": 41,
+        "failed_tests": 15,
+        "historical_features": 16,
+        "cold_start_rows": 0,
+        "mean_historical_executions": 140.63244079752394,
+        "mean_historical_failure_rate": 0.00235532282353612,
+        "mean_estimated_duration": 19.563072590513208,
+        "median_estimated_duration": 3.1189999999999998,
+        "missing_historical_values": 0
+    },
+    "total_rows": 159402,
+    "total_failures": 357,
+    "feature_names": [
+        "historical_executions",
+        "historical_failures",
+        "historical_failure_rate",
+        "smoothed_failure_rate",
+        "historical_mean_duration",
+        "historical_median_duration",
+        "historical_std_duration",
+        "last_failure",
+        "last_duration",
+        "recent_failure_rate_5",
+        "recent_failure_rate_10",
+        "consecutive_failures",
+        "days_since_last_execution",
+        "days_since_last_failure",
+        "is_new_test",
+        "estimated_duration_seconds"
+    ],
+    "evaluation_mode": "walk_forward"
+}

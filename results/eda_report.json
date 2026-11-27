@@ -1,0 +1,21 @@
+{
+    "total_executions": 159402,
+    "unique_test_classes": 1112,
+    "suite_runs": 207,
+    "unique_commits": 177,
+    "passed_tests": 159045,
+    "failed_tests": 357,
+    "failure_rate_percent": 0.223962,
+    "majority_baseline_accuracy": 0.99776,
+    "class_imbalance_ratio": 445.5,
+    "mean_duration_seconds": 21.371090889700255,
+    "median_duration_seconds": 3.434,
+    "max_duration_seconds": 6185.326,
+    "total_observed_test_time_hours": 946.2762861111111,
+    "suite_runs_with_failures": 109,
+    "test_classes_with_failures": 137,
+    "start_date": "2021-04-01 15:49:40+00:00",
+    "end_date": "2023-07-07 15:55:34+00:00",
+    "duplicate_executions": 0,
+    "missing_values": {}
+}

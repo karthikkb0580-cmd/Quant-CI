@@ -1,0 +1,53 @@
+{
+    "strategy": "chronological_build_grouped",
+    "total_rows": 159402,
+    "total_builds": 207,
+    "requested_ratios": {
+        "train": 0.7,
+        "validation": 0.15,
+        "test": 0.15
+    },
+    "train": {
+        "rows": 107426,
+        "builds": 144,
+        "suite_runs": 144,
+        "unique_tests": 1110,
+        "unique_commits": 118,
+        "passed": 107121,
+        "failed": 305,
+        "failure_rate_percent": 0.283916,
+        "start_date": "2021-04-01 15:49:40+00:00",
+        "end_date": "2023-03-27 15:07:33+00:00"
+    },
+    "validation": {
+        "rows": 24190,
+        "builds": 31,
+        "suite_runs": 31,
+        "unique_tests": 1017,
+        "unique_commits": 30,
+        "passed": 24153,
+        "failed": 37,
+        "failure_rate_percent": 0.152956,
+        "start_date": "2023-03-28 00:34:14+00:00",
+        "end_date": "2023-06-08 08:36:48+00:00"
+    },
+    "test": {
+        "rows": 27786,
+        "builds": 32,
+        "suite_runs": 32,
+        "unique_tests": 1014,
+        "unique_commits": 31,
+        "passed": 27771,
+        "failed": 15,
+        "failure_rate_percent": 0.053984,
+        "start_date": "2023-06-08 09:01:19+00:00",
+        "end_date": "2023-07-07 15:55:34+00:00"
+    },
+    "commit_overlap": {
+        "train_validation": 1,
+        "train_test": 0,
+        "validation_test": 1
+    },
+    "build_overlap": 0,
+    "chronological_overlap": false
+}

@@ -1,0 +1,20 @@
+{
+    "project": "activemq",
+    "total_rows": 159402,
+    "total_columns": 22,
+    "suite_runs": 207,
+    "unique_tests": 1112,
+    "unique_commits": 177,
+    "passed_tests": 159045,
+    "failed_tests": 357,
+    "failure_rate_percent": 0.223962,
+    "missing_values": 0,
+    "duplicate_executions": 0,
+    "start_date": "2021-04-01 15:49:40+00:00",
+    "end_date": "2023-07-07 15:55:34+00:00",
+    "mean_duration_seconds": 21.371090889700255,
+    "median_duration_seconds": 3.434,
+    "empty_commit_message_rows": 0,
+    "empty_changed_file_rows": 0,
+    "file_size_mb": 129.47
+}

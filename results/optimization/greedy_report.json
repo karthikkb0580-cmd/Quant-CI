@@ -1,0 +1,62 @@
+{
+    "algorithm": "greedy",
+    "partition": "validation",
+    "total_runs": 31,
+    "budgets_seconds": [
+        60,
+        120,
+        300,
+        600
+    ],
+    "total_optimization_problems": 124,
+    "feasible_solutions": 124,
+    "infeasible_solutions": 0,
+    "maximum_candidates": 200,
+    "budget_summary": [
+        {
+            "budget_seconds": 60.0,
+            "runs": 31,
+            "feasible_runs": 31,
+            "mean_selected_tests": 33.29032258064516,
+            "mean_objective": 10.507370538752948,
+            "mean_estimated_duration": 58.848741935483865,
+            "mean_budget_utilization": 0.9808123655913977,
+            "mean_solver_seconds": 0.0023254386990541414,
+            "mean_candidate_runtime_reduction": 0.9726721844576071
+        },
+        {
+            "budget_seconds": 120.0,
+            "runs": 31,
+            "feasible_runs": 31,
+            "mean_selected_tests": 45.96774193548387,
+            "mean_objective": 14.525627404379383,
+            "mean_estimated_duration": 118.26388709677416,
+            "mean_budget_utilization": 0.9855323924731183,
+            "mean_solver_seconds": 0.0025094515989504515,
+            "mean_candidate_runtime_reduction": 0.9440844385509082
+        },
+        {
+            "budget_seconds": 300.0,
+            "runs": 31,
+            "feasible_runs": 31,
+            "mean_selected_tests": 63.225806451612904,
+            "mean_objective": 20.179648418760134,
+            "mean_estimated_duration": 288.92030645161293,
+            "mean_budget_utilization": 0.9630676881720429,
+            "mean_solver_seconds": 0.0036515580610402168,
+            "mean_candidate_runtime_reduction": 0.8926033098660732
+        },
+        {
+            "budget_seconds": 600.0,
+            "runs": 31,
+            "feasible_runs": 31,
+            "mean_selected_tests": 78.06451612903226,
+            "mean_objective": 25.363293665460052,
+            "mean_estimated_duration": 564.0165000000001,
+            "mean_budget_utilization": 0.9400274999999999,
+            "mean_solver_seconds": 0.004860229039144131,
+            "mean_candidate_runtime_reduction": 0.8512392961170053
+        }
+    ],
+    "actual_failure_evaluation": "deferred"
+}

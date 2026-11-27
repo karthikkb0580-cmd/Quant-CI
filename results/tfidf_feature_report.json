@@ -1,0 +1,45 @@
+{
+    "numerical_features": 24,
+    "code_tfidf_features": 500,
+    "test_tfidf_features": 200,
+    "similarity_features": 2,
+    "total_features": 726,
+    "fit_partition": "training",
+    "matrix_format": "CSR",
+    "matrix_dtype": "float32",
+    "training": {
+        "rows": 107426,
+        "features": 726,
+        "nonzero_elements": 8796717,
+        "density_percent": 11.2791,
+        "sparsity_percent": 88.7209,
+        "sparse_memory_mb": 67.52,
+        "dense_memory_mb": 297.51,
+        "passed": 107121,
+        "failed": 305
+    },
+    "validation": {
+        "rows": 24190,
+        "features": 726,
+        "nonzero_elements": 1479861,
+        "density_percent": 8.4265,
+        "sparsity_percent": 91.5735,
+        "sparse_memory_mb": 11.38,
+        "dense_memory_mb": 66.99,
+        "passed": 24153,
+        "failed": 37
+    },
+    "testing": {
+        "rows": 27786,
+        "features": 726,
+        "nonzero_elements": 1323497,
+        "density_percent": 6.5609,
+        "sparsity_percent": 93.4391,
+        "sparse_memory_mb": 10.2,
+        "dense_memory_mb": 76.95,
+        "passed": 27771,
+        "failed": 15
+    },
+    "total_rows": 159402,
+    "total_failures": 357
+}

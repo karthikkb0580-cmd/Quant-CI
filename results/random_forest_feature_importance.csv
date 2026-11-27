@@ -1,0 +1,727 @@
+feature,importance
+smoothed_failure_rate,0.07088661094584191
+days_since_last_failure,0.06019417125843278
+historical_median_duration,0.05239281497134595
+historical_mean_duration,0.049717512510359475
+historical_failure_rate,0.04500400229168111
+historical_failures,0.03671918958752235
+last_duration,0.03197519560999493
+estimated_duration_seconds,0.02658832113095921
+historical_executions,0.02438967786152602
+historical_std_duration,0.020677778316145496
+days_since_last_execution,0.019753846391111104
+recent_failure_rate_10,0.019124531369279118
+recent_failure_rate_5,0.018949920256504278
+code_tfidf_test,0.015013784750633842
+code_tfidf_activemq client,0.01321546693170502
+code_tfidf_test java,0.012137147291225564
+last_failure,0.011815165554645774
+code_tfidf_messages,0.00962301671160127
+num_changed_lines,0.008704053504795166
+consecutive_failures,0.008560752380076489
+test_tfidf_activemq,0.007655424613519586
+code_tfidf_added,0.007567666187481945
+code_tfidf_client,0.007274408748560394
+test_file_similarity,0.007156357304494499
+num_additions,0.007001828408711128
+code_tfidf_order,0.006775933462620184
+code_tfidf_before,0.006679483634471802
+test_tfidf_apache,0.0066103167455587135
+test_tfidf_test,0.006296385689351572
+code_tfidf_amq,0.0062913178356227666
+test_tfidf_apache activemq,0.005942724147973272
+code_tfidf_for,0.005892129229381979
+code_tfidf_src test,0.005647014559503569
+test_tfidf_org,0.005494790158939878
+test_tfidf_network,0.0054221423069573385
+code_tfidf_client src,0.005261048653992512
+code_tfidf_session,0.005050634352215969
+test_tfidf_org apache,0.004915924931263279
+code_tfidf_pom xml,0.004789563956773368
+code_tfidf_activemq,0.004752202628372443
+test_tfidf_activemq transport,0.004503014962795343
+test_tfidf_transport tcp,0.0043454430114232365
+code_tfidf_active,0.004253334248390992
+code_tfidf_activemq active,0.003987311173504049
+code_tfidf_unit,0.003934060930764129
+code_tfidf_pom,0.0039246543512882785
+test_commit_similarity,0.003912355453810821
+code_tfidf_activemq unit,0.003625404640094746
+code_tfidf_apache,0.0035858168815934926
+code_tfidf_to,0.0035758506263026046
+code_tfidf_plugin,0.003490860635246635
+code_tfidf_xml,0.003398076656691204
+code_tfidf_unit tests,0.0033901848671074987
+code_tfidf_the,0.003381628014816243
+test_tfidf_transport,0.003304811424884452
+num_deletions,0.003302655070889984
+code_tfidf_java activemq,0.0032481659668970246
+code_tfidf_slave and,0.0031920183091213045
+code_tfidf_broker,0.003138744405325209
+code_tfidf_in,0.003116265719966704
+test_tfidf_activemq broker,0.0029883715138177436
+code_tfidf_src,0.0029363898856015983
+test_tfidf_activemq usecases,0.002868219408559081
+test_tfidf_nio,0.002860231631314175
+code_tfidf_upgrade,0.0026515173515657196
+code_tfidf_tests,0.002638359434469106
+test_tfidf_stomp,0.0025982107786448223
+code_tfidf_src main,0.002570000060482666
+code_tfidf_tests pom,0.002553574195429267
+code_tfidf_used,0.0025484199496513126
+code_tfidf_this,0.002507492188583662
+code_tfidf_merge,0.002484239558573356
+code_tfidf_changes,0.002468719996411467
+test_tfidf_tcp,0.002458230778297381
+code_tfidf_active mq,0.002446174652024985
+test_tfidf_activemq network,0.002435401010607684
+code_tfidf_removes passive,0.002424461018210603
+code_tfidf_main,0.002413445731760555
+code_tfidf_apache activemq,0.002386715716039101
+code_tfidf_broker src,0.0023325473824820004
+code_tfidf_passive slave,0.002309150046576739
+test_tfidf_broker,0.0022865587844263465
+num_modified_files,0.0022829132937423322
+code_tfidf_main java,0.002260984362476913
+code_tfidf_client jakarta,0.002250008853773707
+code_tfidf_java,0.0022100023569815437
+code_tfidf_mq,0.0022087861615247843
+code_tfidf_org,0.002206120508551475
+code_tfidf_org apache,0.002169342086983014
+code_tfidf_and,0.0021582768377513043
+code_tfidf_and wait,0.0020140928640027785
+code_tfidf_add,0.002013253796676503
+test_tfidf_bugs,0.0019991898279922097
+code_tfidf_by,0.0019639541911260342
+num_added_files,0.0018958213855686903
+code_tfidf_message,0.001880903558424507
+code_tfidf_timeout,0.0018787145268181957
+code_tfidf_java org,0.0018426271356150117
+test_tfidf_advisory,0.001806366502930467
+code_tfidf_activemq broker,0.0018002090785224345
+code_tfidf_maven plugin,0.0017679199051298868
+code_tfidf_wait,0.0016442340682502592
+code_tfidf_tests src,0.001634463913710073
+num_changed_files,0.0016185146759031277
+test_tfidf_active,0.0015860843073242656
+code_tfidf_job java,0.0015783187764354264
+test_tfidf_activemq bugs,0.0015677290257754425
+num_commits,0.0015585447946785125
+test_tfidf_spring,0.0015572110224110816
+code_tfidf_xml activemq,0.0015451660800488076
+test_tfidf_store,0.0015328467249692635
+code_tfidf_comments,0.0014938764323463812
+test_tfidf_jms,0.0014754306965084662
+code_tfidf_xml pom,0.001470212656099153
+code_tfidf_jakarta src,0.0014628061103250508
+test_tfidf_usecases,0.0014604329644956786
+code_tfidf_scheduler scheduler,0.0014257604154690072
+code_tfidf_unused,0.0014026717629558754
+code_tfidf_dependency,0.001388123378076056
+code_tfidf_mqtt,0.001386064004983946
+test_tfidf_activemq ra,0.0013372760133424566
+test_tfidf_tests,0.0013246112795127962
+code_tfidf_scheduler broker,0.001282967070653238
+test_tfidf_transport stomp,0.0012632200331220234
+code_tfidf_store,0.001259023215179044
+code_tfidf_broker broker,0.001257821342727273
+code_tfidf_removes,0.0012293804296713653
+code_tfidf_are,0.001213172055491859
+code_tfidf_get,0.0012024729485500048
+code_tfidf_no longer,0.0011872457101287273
+code_tfidf_network,0.0011829379793031726
+code_tfidf_passive,0.0011623587562156461
+code_tfidf_queue java,0.001144891673475013
+test_tfidf_two,0.001115989032954248
+code_tfidf_job,0.001109908038181037
+code_tfidf_8316 remove,0.0010960495775123114
+code_tfidf_configuration,0.0010955813266021732
+code_tfidf_slave,0.0010951166584337942
+test_tfidf_queue,0.0010359625646565915
+code_tfidf_8316,0.0010104276075949819
+code_tfidf_scheduler,0.0010089332132616378
+code_tfidf_this is,0.001008138716591203
+code_tfidf_console,0.001003764987740291
+code_tfidf_first,0.00099891349266944
+code_tfidf_kahadb store,0.0009750115043897623
+code_tfidf_fix,0.000974512169127567
+code_tfidf_main into,0.0009741983502818351
+code_tfidf_from,0.0009665124015479989
+test_tfidf_store kahadb,0.0009661654427976385
+test_tfidf_mqtt,0.0009565939820442976
+code_tfidf_factory,0.0009427270218451383
+code_tfidf_broker region,0.0009407167900601592
+code_tfidf_maven,0.0009355906563059303
+code_tfidf_support java,0.0009343051686629786
+code_tfidf_assembly src,0.0008811430127044342
+code_tfidf_store src,0.0008801793124695479
+code_tfidf_locker java,0.0008792889923312264
+code_tfidf_bean java,0.0008778188936592496
+code_tfidf_upgrade to,0.0008705969590147974
+code_tfidf_as,0.0008693207045977152
+test_tfidf_broker policy,0.0008630698204509791
+test_tfidf_activemq jms,0.0008556658858413864
+test_tfidf_transport mqtt,0.0008473066132165697
+code_tfidf_assembly,0.0008020110973635614
+code_tfidf_memory,0.0007868655587584027
+test_tfidf_topic,0.0007838925315621438
+test_tfidf_db,0.0007819278239742561
+test_tfidf_connection test,0.0007805187119175552
+code_tfidf_activemq osgi,0.0007799702901057345
+code_tfidf_memory in,0.000779619726760696
+test_tfidf_jmx,0.0007794485217441505
+code_tfidf_release,0.0007612049065106419
+code_tfidf_methods,0.0007583121133985317
+code_tfidf_into,0.0007550075848628057
+code_tfidf_destination,0.0007520623017536729
+code_tfidf_jakarta,0.0007482290932030489
+code_tfidf_connector,0.0007409032671898488
+code_tfidf_broker java,0.0007406164954137389
+code_tfidf_activemq kahadb,0.0007365074562217191
+test_tfidf_ssl,0.0007362082770381307
+code_tfidf_are no,0.0007308531742431301
+code_tfidf_broker scheduler,0.0007241093062104713
+code_tfidf_broker service,0.000713328408925757
+code_tfidf_factory java,0.0007072473780958707
+code_tfidf_region queue,0.0007061353585988847
+test_tfidf_activemq store,0.0006992743547446926
+code_tfidf_adapter java,0.0006985738866010495
+code_tfidf_store jdbc,0.0006676460690356917
+code_tfidf_view java,0.0006626921865062821
+code_tfidf_branch apache,0.0006544212623788604
+code_tfidf_service,0.000617674149456414
+code_tfidf_of,0.0006174339881534602
+code_tfidf_inclusive terminology,0.0006171701136154289
+code_tfidf_not,0.0006167862550698608
+code_tfidf_bin xml,0.0006064364378535463
+code_tfidf_for slave,0.0006055563386368294
+test_tfidf_message,0.0006028629626540975
+test_tfidf_kaha db,0.0005959486648305112
+code_tfidf_wait for,0.0005952628379553721
+test_tfidf_with,0.0005902900887051699
+code_tfidf_jdbc,0.0005824017981859597
+test_tfidf_connection,0.0005823201605348803
+code_tfidf_merge branch,0.0005810403847732527
+code_tfidf_jdbc store,0.0005728259011719851
+test_tfidf_policy,0.0005664272709617602
+code_tfidf_xml assembly,0.000558706734816623
+code_tfidf_jmx,0.0005522311351291281
+code_tfidf_to the,0.0005394234858672196
+test_tfidf_receive,0.0005316901730159731
+test_tfidf_kaha,0.0005218717687202195
+code_tfidf_job scheduler,0.0005167239780553191
+code_tfidf_scheduler job,0.0005097780139713722
+test_tfidf_failover,0.000505068471333332
+code_tfidf_network network,0.0005040677614210852
+code_tfidf_make,0.0004983674455664755
+code_tfidf_region,0.0004915040078472535
+test_tfidf_stomp stomp,0.0004895056157582909
+code_tfidf_this removes,0.0004885655524886304
+code_tfidf_longer,0.0004822212498696915
+code_tfidf_demo,0.0004785018728323518
+code_tfidf_kahadb,0.000477960482975389
+test_tfidf_stomp auto,0.00046599676795781967
+code_tfidf_core,0.00046473428932154915
+code_tfidf_view,0.0004629362968251933
+test_tfidf_bean,0.0004606051604708315
+code_tfidf_impl,0.0004536797590764057
+test_tfidf_request,0.00044942457255998843
+code_tfidf_amq 8316,0.0004277054346012589
+code_tfidf_spring,0.0004212656275880859
+code_tfidf_commit,0.00042104582463926686
+code_tfidf_queue,0.0004193814948637357
+code_tfidf_activemq network,0.0004134380199191068
+code_tfidf_activemq jdbc,0.0004114976274542976
+code_tfidf_on,0.0004050963520994824
+code_tfidf_view bean,0.0004026326858431001
+code_tfidf_timestamp,0.0004025152770535702
+code_tfidf_slave discovery,0.0003985087496933055
+test_tfidf_factory,0.00039574103287987744
+code_tfidf_is,0.00039457387838553814
+code_tfidf_impl java,0.00038632811533324466
+code_tfidf_terminology,0.00037425472992283477
+code_tfidf_activemq store,0.0003670202859450978
+code_tfidf_age and,0.0003643458062904198
+test_tfidf_ssl test,0.00036212037990606544
+code_tfidf_which,0.0003601802698217467
+code_tfidf_locker,0.0003587581933420943
+code_tfidf_database,0.0003577537038259826
+test_tfidf_transport amqp,0.0003487404226304535
+code_tfidf_first message,0.0003485921322683731
+code_tfidf_lifecycle merge,0.00034380975293230997
+test_tfidf_kahadb,0.00033814696368993194
+test_tfidf_job scheduler,0.00033636554473654367
+code_tfidf_network connector,0.00032914104028213947
+code_tfidf_support,0.0003286220631699627
+code_tfidf_activemq perf,0.00032514746292966327
+code_tfidf_connection,0.0003217338994755826
+test_tfidf_durable,0.0003159004516199078
+test_tfidf_amqp jms,0.0003155209299334224
+code_tfidf_replica,0.00031244233015218685
+code_tfidf_jmx queue,0.00031084040943883613
+code_tfidf_database locker,0.00030797641780868853
+code_tfidf_assembly pom,0.0003021696376141703
+test_tfidf_send,0.0003001554180813695
+code_tfidf_scheduler impl,0.000292200069500889
+code_tfidf_failover,0.0002882161184751365
+code_tfidf_main resources,0.0002841363903959477
+code_tfidf_scheduler memory,0.0002784352869523109
+code_tfidf_region policy,0.00027750060154916163
+test_tfidf_disk,0.00027573974487486616
+code_tfidf_feature,0.0002711777915202587
+code_tfidf_store kahadb,0.00026335316681329416
+test_tfidf_redelivery,0.0002568192134096331
+test_tfidf_xbean,0.00025397607516286535
+code_tfidf_ha,0.0002533169583185253
+code_tfidf_no,0.0002520337050691442
+test_tfidf_receive test,0.00025145445616044993
+code_tfidf_and first,0.00024512878842293843
+code_tfidf_remove,0.00024493021029855383
+code_tfidf_message age,0.0002440892126501545
+code_tfidf_via,0.00024020727233598827
+test_tfidf_auto,0.00023977042867796296
+test_tfidf_ra,0.0002365972715732817
+code_tfidf_14,0.00023229208342504556
+code_tfidf_web,0.00022925813122665555
+code_tfidf_connection context,0.0002284771750406552
+code_tfidf_non,0.0002246291556356321
+test_tfidf_size,0.00022442480612236963
+code_tfidf_resources features,0.00022138008665708147
+code_tfidf_persistence adapter,0.00021993544849114577
+code_tfidf_service java,0.00021641366880165142
+code_tfidf_osgi,0.00021570927395188206
+code_tfidf_activemq web,0.00021322504692459802
+code_tfidf_listener,0.00021250249651142257
+code_tfidf_broker add,0.00021249222194344067
+test_tfidf_reply,0.00021244781848626915
+code_tfidf_configuration to,0.0002111211588037735
+code_tfidf_reworking job,0.0002041990280654691
+code_tfidf_stream,0.00020079376242413853
+code_tfidf_memory job,0.00019647757344075343
+code_tfidf_feature scheduler,0.00019628012086069172
+code_tfidf_adapter factory,0.0001948972583073149
+code_tfidf_subscription java,0.0001929469453970964
+code_tfidf_command,0.00018824849104729594
+code_tfidf_resources,0.0001870698512135599
+code_tfidf_listeners,0.000186715008373425
+test_tfidf_amqp,0.00018519512788823988
+test_tfidf_config,0.00018449872540680665
+code_tfidf_to jetty,0.00017574023417766475
+code_tfidf_persistence,0.00017535455389693582
+code_tfidf_journal persistence,0.00017382000848846981
+test_tfidf_factory test,0.00017149184138784632
+code_tfidf_default,0.00017062594972543915
+code_tfidf_agent test,0.00016877845691887602
+code_tfidf_karaf,0.00016553840048006503
+code_tfidf_command active,0.00016460642230045424
+code_tfidf_empty,0.00016453790410638102
+code_tfidf_producer java,0.00016366446011234045
+code_tfidf_into feature,0.00016327817169806307
+code_tfidf_amq 7309,0.00016074091987371256
+code_tfidf_message java,0.00016051034610744866
+code_tfidf_jetty,0.000160286058549062
+code_tfidf_will,0.00015534888045670142
+test_tfidf_virtual,0.00015360892126293712
+code_tfidf_individual,0.000152481906022664
+code_tfidf_advisory message,0.0001507014410192229
+code_tfidf_activemq console,0.0001487070550523372
+code_tfidf_apache main,0.00014711443913594766
+code_tfidf_per,0.0001445612983189506
+test_tfidf_job,0.00014380802866325297
+code_tfidf_queue view,0.00014235526014098085
+code_tfidf_activemq karaf,0.00014230924200397355
+test_tfidf_broker jmx,0.00014108020422801931
+code_tfidf_advisory,0.00014018709195813794
+code_tfidf_perf maven,0.0001396322522443069
+test_tfidf_subscription,0.00013889294336912527
+code_tfidf_file,0.00013752387801685973
+code_tfidf_inclusive,0.00013747482925219301
+code_tfidf_remove unused,0.00013733101161281255
+code_tfidf_util,0.00013619280153418255
+test_tfidf_destination,0.0001357302898046873
+code_tfidf_prefetch,0.0001347135721902808
+test_tfidf_selector,0.00013448924541342402
+test_tfidf_broker scheduler,0.00013220819633055986
+code_tfidf_jdbc persistence,0.00013100314490512136
+code_tfidf_bean,0.00013100031650467052
+code_tfidf_transport discovery,0.00012981196945613532
+test_tfidf_pool,0.0001297019723552056
+test_tfidf_virtual topic,0.00012948990555233236
+code_tfidf_broker jmx,0.00012891003090737837
+code_tfidf_xbean,0.00012811538320934565
+test_tfidf_transaction test,0.00012555833718534665
+code_tfidf_broker error,0.0001253573366320467
+code_tfidf_abstract,0.00012499878235581113
+test_tfidf_auto nio,0.00012452378546158515
+code_tfidf_common bin,0.0001219866005553139
+code_tfidf_to avoid,0.0001208151358218154
+test_tfidf_bridge,0.00011965798047376036
+code_tfidf_master,0.00011847817172879488
+code_tfidf_age,0.00011825875100834349
+code_tfidf_web demo,0.00011677012807935608
+code_tfidf_per destination,0.00011505772404022372
+code_tfidf_log,0.00011356543241074156
+code_tfidf_scheduler store,0.00011292091773173801
+code_tfidf_activity,0.00011214255179427226
+code_tfidf_listener lifecycle,0.00011063114623056263
+code_tfidf_the first,0.00010848501466543182
+code_tfidf_copy,0.00010838229978477507
+code_tfidf_start,0.00010799061700722559
+code_tfidf_strategy,0.00010754567973583271
+code_tfidf_out,0.00010726253222203701
+test_tfidf_jdbc,0.0001069461787650331
+code_tfidf_activemq tooling,0.00010606323929396067
+code_tfidf_forwarding,0.00010594593138854776
+code_tfidf_features,0.00010571877994487144
+code_tfidf_config,0.00010546727306485045
+code_tfidf_activity via,0.00010475036504466549
+test_tfidf_consumer,0.00010375410722209379
+code_tfidf_ha discovery,0.00010348920525755116
+test_tfidf_memory,0.00010327093997465866
+code_tfidf_new,0.0001026615080637113
+code_tfidf_store java,0.0001005611192293097
+test_tfidf_store jdbc,9.958119264057062e-05
+test_tfidf_in,9.862416289643451e-05
+code_tfidf_commons,9.77651167923738e-05
+code_tfidf_packet byte,9.758270322091337e-05
+code_tfidf_empty broker,9.714287924228126e-05
+code_tfidf_console pom,9.6942509141799e-05
+code_tfidf_strategy java,9.550188237868023e-05
+code_tfidf_bin,9.492813198679947e-05
+code_tfidf_connection java,9.457958527727458e-05
+test_tfidf_and,9.29467738849078e-05
+code_tfidf_error broker,9.180501215859011e-05
+code_tfidf_job listener,9.165203643145748e-05
+code_tfidf_scheduler test,9.123806227213269e-05
+code_tfidf_listeners configuration,8.952153677746415e-05
+code_tfidf_byte,8.87097548908184e-05
+test_tfidf_usecases durable,8.777986008633073e-05
+code_tfidf_the broker,8.675052871139288e-05
+code_tfidf_main descriptors,8.651214975617042e-05
+test_tfidf_util,8.494500597363437e-05
+code_tfidf_pool,8.447009037290333e-05
+code_tfidf_for replica,8.367518725996132e-05
+code_tfidf_topic,8.33998253756155e-05
+code_tfidf_after,8.283435812995256e-05
+test_tfidf_transaction,7.982250710454646e-05
+test_tfidf_index,7.956354514925905e-05
+code_tfidf_adapter,7.940639993076096e-05
+code_tfidf_individual dead,7.826444093329599e-05
+code_tfidf_all,7.778756560736627e-05
+code_tfidf_master slave,7.591394287910262e-05
+code_tfidf_journal,7.503810549567068e-05
+code_tfidf_message timestamp,7.500964762238907e-05
+test_tfidf_broker test,7.311992486546082e-05
+code_tfidf_error,7.224711400545398e-05
+code_tfidf_ack,7.159424554667336e-05
+code_tfidf_broker filter,7.120088712782108e-05
+code_tfidf_prefetch subscription,7.114208031839789e-05
+test_tfidf_transport nio,6.984263345792617e-05
+code_tfidf_store journal,6.922901949492683e-05
+code_tfidf_transport,6.906048501521285e-05
+test_tfidf_db store,6.889656912405054e-05
+test_tfidf_concurrent,6.77363145382515e-05
+code_tfidf_object,6.396761320868392e-05
+test_tfidf_security,6.369841510112157e-05
+code_tfidf_karaf src,6.347630390402716e-05
+test_tfidf_send and,6.326984663222382e-05
+code_tfidf_github com,6.284927383952069e-05
+code_tfidf_filter,6.269802210003926e-05
+code_tfidf_plugin java,6.217783683327429e-05
+code_tfidf_message not,6.138677197403506e-05
+code_tfidf_journal active,6.073823743495421e-05
+code_tfidf_agent,6.0571559500203654e-05
+code_tfidf_perf,6.050861448627122e-05
+code_tfidf_dead,6.006852503927206e-05
+test_tfidf_broker region,5.986814876494899e-05
+code_tfidf_info,5.905050477016841e-05
+test_tfidf_command,5.8896610824256626e-05
+test_tfidf_transport failover,5.812463656265966e-05
+test_tfidf_xa,5.793824713131731e-05
+code_tfidf_letter strategy,5.69225316751354e-05
+code_tfidf_masterslave master,5.653919550434579e-05
+code_tfidf_advisory broker,5.536893762133603e-05
+code_tfidf_https github,5.461981690671125e-05
+code_tfidf_discovery masterslave,5.442465623502959e-05
+code_tfidf_subscription,5.409503369605512e-05
+code_tfidf_amq 8354,5.3885342897348885e-05
+code_tfidf_context java,5.383878420111662e-05
+test_tfidf_org objectweb,5.339561700855835e-05
+code_tfidf_journal journal,5.3254507209322945e-05
+test_tfidf_mq,5.154536380683387e-05
+code_tfidf_activemq util,5.12384627841337e-05
+code_tfidf_scheduled,5.0533450357591015e-05
+code_tfidf_letter,5.037766299938475e-05
+code_tfidf_activemq maven,4.997922833960361e-05
+code_tfidf_region prefetch,4.9546380660418994e-05
+code_tfidf_to jackson,4.889748690973528e-05
+code_tfidf_features core,4.849977688413634e-05
+code_tfidf_https,4.827386238380125e-05
+code_tfidf_should,4.759280085878475e-05
+test_tfidf_jtests,4.718393236678617e-05
+test_tfidf_send receive,4.68219563835262e-05
+code_tfidf_packet packet,4.679078105337045e-05
+code_tfidf_kaha db,4.629383809474953e-05
+test_tfidf_activemq util,4.554461939883121e-05
+code_tfidf_journal adapter,4.41636988394738e-05
+test_tfidf_mqtt mqtt,4.260270402362704e-05
+code_tfidf_packet java,4.2266342015017935e-05
+code_tfidf_it is,4.2181110106178334e-05
+code_tfidf_using,4.209250411480936e-05
+code_tfidf_resources org,4.17261930161198e-05
+code_tfidf_activemq replica,4.102371384732315e-05
+code_tfidf_jms,4.0870413203144925e-05
+code_tfidf_use,4.038605553797928e-05
+code_tfidf_activemq openwire,4.0106886651471114e-05
+code_tfidf_tooling activemq,3.9100123349761105e-05
+code_tfidf_supplier,3.787344386753277e-05
+code_tfidf_lifecycle reworking,3.781802842020885e-05
+code_tfidf_generator,3.753603035048172e-05
+code_tfidf_event,3.716428848620224e-05
+code_tfidf_when,3.6946936864652875e-05
+code_tfidf_broker empty,3.649441530906543e-05
+code_tfidf_broker connection,3.64625401122289e-05
+test_tfidf_scheduler,3.641528863290402e-05
+test_tfidf_region,3.546512269988609e-05
+test_tfidf_journal,3.504588881986807e-05
+code_tfidf_replica plugin,3.383650603480688e-05
+test_tfidf_interop,3.366609828614674e-05
+code_tfidf_producer,3.33174363773429e-05
+code_tfidf_with,3.327250920554176e-05
+test_tfidf_transport broker,3.3182275367832854e-05
+code_tfidf_to commons,3.2998139412003065e-05
+code_tfidf_read,3.2758752373625234e-05
+code_tfidf_core xml,3.241639189904432e-05
+test_tfidf_activemq security,3.148725125184084e-05
+code_tfidf_helper,3.136607152629949e-05
+code_tfidf_activemq spring,3.111197581343477e-05
+code_tfidf_common,3.0788175471939595e-05
+code_tfidf_adapter packet,3.0397940248455836e-05
+code_tfidf_8354,3.01143320633648e-05
+code_tfidf_metrics,2.7644920755571697e-05
+test_tfidf_conform,2.7346455570773396e-05
+code_tfidf_activemq command,2.7059560729297615e-05
+code_tfidf_event listener,2.671625287317649e-05
+code_tfidf_in memory,2.5262220410230394e-05
+code_tfidf_kahadb scheduler,2.483212668723658e-05
+code_tfidf_test case,2.4648228273433818e-05
+test_tfidf_connection factory,2.461427127579331e-05
+code_tfidf_conf,2.3998552333286776e-05
+code_tfidf_avoid,2.386605091888945e-05
+code_tfidf_discovery agent,2.379908639869051e-05
+code_tfidf_agent java,2.2278892946754647e-05
+code_tfidf_filter java,2.2206568597926355e-05
+code_tfidf_policy individual,2.2181069864796846e-05
+code_tfidf_lifecycle,2.184316330739306e-05
+test_tfidf_cursor,2.1185627604581777e-05
+test_tfidf_failover failover,2.1163846972598563e-05
+code_tfidf_add job,2.1153929924822187e-05
+test_tfidf_niossl,2.0276598175820502e-05
+code_tfidf_it,1.935135329973092e-05
+code_tfidf_branch,1.7967221124689942e-05
+test_tfidf_jtests jms,1.787155589398451e-05
+test_tfidf_pooled,1.755473599826425e-05
+code_tfidf_discovery,1.754646851311425e-05
+test_tfidf_objectweb,1.6824740540559315e-05
+test_tfidf_durable subscription,1.652775868158379e-05
+code_tfidf_type,1.640547077405624e-05
+test_tfidf_module,1.5955448865033086e-05
+test_tfidf_jms conform,1.5579065657488392e-05
+test_tfidf_and receive,1.532865312986341e-05
+code_tfidf_that,1.5317932292784648e-05
+code_tfidf_replica internal,1.4848466885978232e-05
+code_tfidf_queue advisory,1.4562898912036172e-05
+code_tfidf_store pom,1.4400662313865599e-05
+test_tfidf_file,1.4350115263598255e-05
+test_tfidf_leveldb,1.3074267088644472e-05
+code_tfidf_the region,1.2956344592288441e-05
+code_tfidf_delayed,1.2616531268053412e-05
+code_tfidf_policy,1.2519521734587677e-05
+test_tfidf_transport https,1.1446956966659024e-05
+code_tfidf_16,1.1235850644242174e-05
+test_tfidf_message test,1.1133141420438753e-05
+test_tfidf_session,1.0647860684604152e-05
+code_tfidf_format java,1.0460235513698353e-05
+code_tfidf_jenkinsfile,1.0407209260032995e-05
+test_tfidf_broker virtual,9.615352482554836e-06
+code_tfidf_7309,9.455503887705571e-06
+test_tfidf_transport auto,9.144646723947715e-06
+test_tfidf_jms topic,9.11274835089583e-06
+test_tfidf_region cursors,8.828059696061106e-06
+test_tfidf_authentication,8.82018844316477e-06
+test_tfidf_size test,8.561077950761053e-06
+code_tfidf_exception,8.558547596559809e-06
+test_tfidf_timeout,8.457750576897903e-06
+test_tfidf_kahadb disk,8.216378587540079e-06
+test_tfidf_activemq test,7.658732568252474e-06
+test_tfidf_temp,7.538780122928827e-06
+code_tfidf_case,6.623038614153335e-06
+test_tfidf_filter,6.304622026504229e-06
+test_tfidf_shiro,6.291430885420871e-06
+code_tfidf_descriptors,6.179358188799957e-06
+code_tfidf_descriptors common,5.690080712637338e-06
+test_tfidf_http,5.349274780110159e-06
+test_tfidf_topic send,5.049410000567353e-06
+code_tfidf_not sent,5.008675958062586e-06
+code_tfidf_send,4.8338788930373965e-06
+test_tfidf_consumer test,4.671167588198311e-06
+test_tfidf_jms queue,4.553491879220133e-06
+test_tfidf_pool pooled,4.462642671317811e-06
+test_tfidf_active mq,4.342910620509137e-06
+test_tfidf_wildcard,4.1235646895144725e-06
+test_tfidf_composite,3.544462570256677e-06
+test_tfidf_interop amqp,3.455334764045523e-06
+test_tfidf_client,3.336177962329974e-06
+test_tfidf_retroactive,3.152546331500781e-06
+test_tfidf_activemq jaas,2.943164695161523e-06
+code_tfidf_message producer,2.8205801255396163e-06
+test_tfidf_properties,2.593638618305235e-06
+test_tfidf_transport test,2.2724061594639204e-06
+test_tfidf_jms client,1.7823220322072903e-06
+test_tfidf_slow,1.584324450040315e-06
+test_tfidf_objectweb jtests,1.5388979765005656e-06
+test_tfidf_dispatch,1.494866203632252e-06
+test_tfidf_transport ws,1.2062898369509749e-06
+is_new_test,1.1463497451047255e-06
+test_tfidf_level db,1.0687978897393146e-06
+code_tfidf_mq message,1.307853530871009e-07
+code_tfidf_body,5.055776141584877e-08
+code_tfidf_removal,2.435746707653261e-08
+code_tfidf_gets,2.831673356752938e-09
+code_tfidf_listener java,0.0
+code_tfidf_message store,0.0
+code_tfidf_message format,0.0
+code_tfidf_lruk,0.0
+code_tfidf_lruk cache,0.0
+code_tfidf_location,0.0
+test_tfidf_vm,0.0
+code_tfidf_message using,0.0
+test_tfidf_ws,0.0
+code_tfidf_case send,0.0
+code_tfidf_com,0.0
+code_tfidf_xstream,0.0
+code_tfidf_8354 add,0.0
+code_tfidf_8354 replication,0.0
+code_tfidf_9187,0.0
+code_tfidf_9187 queue,0.0
+code_tfidf_active log,0.0
+code_tfidf_log file,0.0
+code_tfidf_activemq mqtt,0.0
+code_tfidf_broker amq,0.0
+code_tfidf_using normal,0.0
+test_tfidf_camel component,0.0
+test_tfidf_camel,0.0
+code_tfidf_packet,0.0
+code_tfidf_kaha,0.0
+test_tfidf_activemq command,0.0
+code_tfidf_broker event,0.0
+test_tfidf_activemq camel,0.0
+test_tfidf_amqp interop,0.0
+test_tfidf_cursors,0.0
+code_tfidf_amq 9187,0.0
+test_tfidf_connections,0.0
+code_tfidf_destination extractor,0.0
+code_tfidf_destination creation,0.0
+code_tfidf_plugin test,0.0
+code_tfidf_creation,0.0
+code_tfidf_cache,0.0
+code_tfidf_bug,0.0
+code_tfidf_broker replica,0.0
+test_tfidf_activemq shiro,0.0
+test_tfidf_activemq replica,0.0
+code_tfidf_context,0.0
+code_tfidf_the advisory,0.0
+code_tfidf_tooling,0.0
+code_tfidf_update,0.0
+test_tfidf_config test,0.0
+test_tfidf_component,0.0
+test_tfidf_jms pool,0.0
+code_tfidf_transaction,0.0
+test_tfidf_jaas,0.0
+test_tfidf_https https,0.0
+test_tfidf_https,0.0
+code_tfidf_prepare,0.0
+code_tfidf_stream java,0.0
+code_tfidf_deleting,0.0
+code_tfidf_delayed message,0.0
+test_tfidf_java,0.0
+code_tfidf_dead letter,0.0
+code_tfidf_db,0.0
+code_tfidf_the replication,0.0
+code_tfidf_thread,0.0
+code_tfidf_journal packet,0.0
+code_tfidf_openwire,0.0
+code_tfidf_only,0.0
+test_tfidf_http http,0.0
+code_tfidf_of destination,0.0
+code_tfidf_stop,0.0
+code_tfidf_plugin pom,0.0
+code_tfidf_job listeners,0.0
+code_tfidf_jettison,0.0
+code_tfidf_the bug,0.0
+test_tfidf_cache,0.0
+test_tfidf_auth,0.0
+code_tfidf_record,0.0
+code_tfidf_region broker,0.0
+code_tfidf_test resources,0.0
+code_tfidf_forwarding activity,0.0
+code_tfidf_ssl,0.0
+code_tfidf_src release,0.0
+code_tfidf_additional,0.0
+code_tfidf_normal,0.0
+test_tfidf_max,0.0
+code_tfidf_send delayed,0.0
+code_tfidf_improve,0.0
+code_tfidf_extractor,0.0
+code_tfidf_exception java,0.0
+code_tfidf_add missed,0.0
+code_tfidf_add lruk,0.0
+code_tfidf_queue supplier,0.0
+test_tfidf_level,0.0
+test_tfidf_kahadb kaha,0.0
+test_tfidf_plugin,0.0
+test_tfidf_policy test,0.0
+test_tfidf_order,0.0
+test_tfidf_no,0.0
+code_tfidf_jackson,0.0
+code_tfidf_internal message,0.0
+code_tfidf_internal,0.0
+code_tfidf_format,0.0
+code_tfidf_source broker,0.0
+code_tfidf_source,0.0
+code_tfidf_shiro,0.0
+code_tfidf_durable,0.0
+code_tfidf_discovery ha,0.0
+code_tfidf_non inclusive,0.0
+code_tfidf_agent factory,0.0
+code_tfidf_sent,0.0
+code_tfidf_sequence,0.0
+test_tfidf_replica replica,0.0
+code_tfidf_replication of,0.0
+code_tfidf_replication,0.0
+code_tfidf_activemq transport,0.0
+code_tfidf_activity listener,0.0
+code_tfidf_replica source,0.0
+code_tfidf_replica replication,0.0
+code_tfidf_replica event,0.0
+code_tfidf_replica replica,0.0
+code_tfidf_replica destination,0.0
+code_tfidf_replica broker,0.0
+code_tfidf_replicate,0.0
+code_tfidf_replication queue,0.0
+code_tfidf_scheduler java,0.0
+code_tfidf_github,0.0
+code_tfidf_scheduler forwarding,0.0
+code_tfidf_scheduler activity,0.0
+test_tfidf_replica,0.0
+test_tfidf_recovery,0.0
+code_tfidf_rollback,0.0
+code_tfidf_reworking,0.0
+code_tfidf_10,0.0
+test_tfidf_transport http,0.0
+num_removed_files,0.0
+test_tfidf_timeout test,0.0
+test_tfidf_usage,0.0
+test_tfidf_sub,0.0
+code_tfidf_13,0.0
+code_tfidf_masterslave,0.0
