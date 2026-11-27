@@ -1,0 +1,27 @@
+{
+    "correction_method": "temporal_embargo",
+    "validation_start": "2023-03-28 00:34:14+00:00",
+    "test_start": "2023-06-08 09:01:19+00:00",
+    "training_rows": 107426,
+    "training_boundary_violations": 0,
+    "original_validation_rows": 24190,
+    "original_validation_runs": 31,
+    "original_validation_failures": 37,
+    "excluded_validation_rows": 4452,
+    "excluded_validation_runs": 5,
+    "excluded_validation_failures": 0,
+    "corrected_validation_rows": 19738,
+    "corrected_validation_runs": 26,
+    "corrected_validation_failures": 37,
+    "corrected_validation_failure_rate": 0.0018745566926740298,
+    "corrected_matrix_shape": [
+        19738,
+        726
+    ],
+    "remaining_validation_boundary_violations": 0,
+    "test_rows": 27786,
+    "test_failures": 15,
+    "original_artifacts_preserved": true,
+    "model_reselection_required": true,
+    "previous_test_results_observed": true
+}

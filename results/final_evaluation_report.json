@@ -3,9 +3,9 @@
     "selection_partition": "validation",
     "selection_metric": "average_precision",
     "validation_comparison": {
-        "smoothed_historical_probability": 0.030272130406580645,
-        "logistic_regression": 0.030320033072652814,
-        "random_forest": 0.05691051495821902
+        "smoothed_historical_probability": 0.03769933298916436,
+        "logistic_regression": 0.04109165102346477,
+        "random_forest": 0.06940485926834601
     },
     "test_rows": 27786,
     "test_failures": 15,
@@ -272,30 +272,30 @@
         },
         "logistic_regression": {
             "classification": {
-                "threshold": 0.07745253195245648,
-                "accuracy": 0.9983444900309508,
+                "threshold": 0.9999780263844975,
+                "accuracy": 0.998812351543943,
                 "precision": 0.0,
                 "recall": 0.0,
                 "f1_score": 0.0,
-                "roc_auc": 0.9043654651735022,
-                "average_precision": 0.008832477920020192,
-                "true_negatives": 27740,
-                "false_positives": 31,
+                "roc_auc": 0.9589115744241595,
+                "average_precision": 0.011486927564307033,
+                "true_negatives": 27753,
+                "false_positives": 18,
                 "false_negatives": 15,
                 "true_positives": 0,
-                "predicted_failures": 31
+                "predicted_failures": 18
             },
             "ranking": {
                 "top_10_percent": {
                     "selected_tests": 2796,
-                    "detected_failures": 14,
+                    "detected_failures": 15,
                     "total_failures": 15,
-                    "recall": 0.9333333333333333,
-                    "precision": 0.005007153075822604,
+                    "recall": 1.0,
+                    "precision": 0.00536480686695279,
                     "selection_rate": 0.10062621464046642,
-                    "failure_runs_detected": 10,
+                    "failure_runs_detected": 11,
                     "total_failure_runs": 11,
-                    "failure_run_detection_rate": 0.9090909090909091
+                    "failure_run_detection_rate": 1.0
                 },
                 "top_20_percent": {
                     "selected_tests": 5564,
@@ -431,9 +431,9 @@
             "brier_score": 0.0005841035554663464
         },
         "logistic_regression": {
-            "mean_score": 0.005528570042506217,
+            "mean_score": 0.06649687527337375,
             "observed_failure_rate": 0.0005398402072986396,
-            "brier_score": 0.0005900598466431202
+            "brier_score": 0.024252834482486905
         },
         "random_forest": {
             "mean_score": 0.19302353172857326,
@@ -444,7 +444,7 @@
     "probability_calibration": "not_performed",
     "candidate_roster": "retrospectively_observed",
     "prediction_seconds": {
-        "logistic_regression": 0.01221600011922419,
-        "random_forest": 0.2358723001088947
+        "logistic_regression": 0.00647630007006228,
+        "random_forest": 0.1830195002257824
     }
 }

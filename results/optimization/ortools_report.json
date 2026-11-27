@@ -1,0 +1,67 @@
+{
+    "algorithm": "ortools_cp_sat",
+    "partition": "validation",
+    "total_runs": 26,
+    "total_problems": 104,
+    "feasible_solutions": 104,
+    "infeasible_solutions": 0,
+    "solver_status_counts": {
+        "OPTIMAL": 81,
+        "FEASIBLE": 23
+    },
+    "fallback_solutions": 0,
+    "better_than_greedy": 84,
+    "equal_to_greedy": 19,
+    "worse_than_greedy": 1,
+    "mean_objective_improvement": 0.058170610075372844,
+    "mean_solver_seconds": 1.90040942019774,
+    "total_experiment_seconds": 199.68531390000135,
+    "time_limit_seconds": 5.0,
+    "workers": 2,
+    "duration_scale": 1000,
+    "objective_scale": 1000000,
+    "maximum_candidates": 200,
+    "actual_failure_evaluation": "deferred",
+    "budget_summary": [
+        {
+            "budget_seconds": 60.0,
+            "problems": 26,
+            "mean_greedy_objective": 10.1044568613,
+            "mean_ortools_objective": 10.1389521712,
+            "mean_objective_improvement": 0.0344953099,
+            "mean_greedy_seconds": 0.0024373307,
+            "mean_ortools_seconds": 0.9975344154,
+            "mean_optimality_gap": 0.0254757322
+        },
+        {
+            "budget_seconds": 120.0,
+            "problems": 26,
+            "mean_greedy_objective": 13.9492149424,
+            "mean_ortools_objective": 13.9795193634,
+            "mean_objective_improvement": 0.030304421,
+            "mean_greedy_seconds": 0.0024762423,
+            "mean_ortools_seconds": 1.4638493885,
+            "mean_optimality_gap": 0.0293086433
+        },
+        {
+            "budget_seconds": 300.0,
+            "problems": 26,
+            "mean_greedy_objective": 19.3222680536,
+            "mean_ortools_objective": 19.4019723616,
+            "mean_objective_improvement": 0.079704308,
+            "mean_greedy_seconds": 0.0032600923,
+            "mean_ortools_seconds": 1.8567357269,
+            "mean_optimality_gap": 0.0281456012
+        },
+        {
+            "budget_seconds": 600.0,
+            "problems": 26,
+            "mean_greedy_objective": 24.1603149404,
+            "mean_ortools_objective": 24.2484933418,
+            "mean_objective_improvement": 0.0881784014,
+            "mean_greedy_seconds": 0.0040031615,
+            "mean_ortools_seconds": 3.28351815,
+            "mean_optimality_gap": 0.0523531212
+        }
+    ]
+}

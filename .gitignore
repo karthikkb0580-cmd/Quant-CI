@@ -46,3 +46,4 @@ results/optimization/*_trace.csv
 secrets/
 credentials.json
 service_account.json
+experiments/
