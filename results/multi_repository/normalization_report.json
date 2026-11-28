@@ -1,0 +1,59 @@
+{
+    "dataset": "LRTS",
+    "projects": [
+        "karaf",
+        "hbase"
+    ],
+    "total_normalized_rows": 680181,
+    "total_failures": 650,
+    "repositories": [
+        {
+            "project": "karaf",
+            "metadata_records": 620,
+            "total_archives": 726,
+            "invalid_test_rows": 0,
+            "ambiguous_test_rows": 0,
+            "processed_archives": 620,
+            "missing_metadata": 106,
+            "normalized_rows": 132892,
+            "passed": 132620,
+            "failed": 272,
+            "failure_rate": 0.0020467748246696567,
+            "unique_tests": 238,
+            "unique_runs": 620,
+            "unique_builds": 620,
+            "unique_commits": 612,
+            "failure_runs": 174,
+            "earliest_timestamp": "2020-12-12 05:35:55+00:00",
+            "latest_timestamp": "2023-07-29 10:03:58+00:00",
+            "mean_duration_seconds": 6.280455369773953,
+            "duplicate_executions": 0,
+            "output_file": "data\\processed\\multi_repository\\karaf_normalized.csv",
+            "elapsed_seconds": 30.039499199949205
+        },
+        {
+            "project": "hbase",
+            "metadata_records": 553,
+            "total_archives": 1018,
+            "invalid_test_rows": 0,
+            "ambiguous_test_rows": 0,
+            "processed_archives": 553,
+            "missing_metadata": 465,
+            "normalized_rows": 547289,
+            "passed": 546911,
+            "failed": 378,
+            "failure_rate": 0.0006906771376731489,
+            "unique_tests": 1899,
+            "unique_runs": 553,
+            "unique_builds": 278,
+            "unique_commits": 262,
+            "failure_runs": 215,
+            "earliest_timestamp": "2022-03-11 08:54:42+00:00",
+            "latest_timestamp": "2023-07-28 19:19:48+00:00",
+            "mean_duration_seconds": 30.6416627503933,
+            "duplicate_executions": 0,
+            "output_file": "data\\processed\\multi_repository\\hbase_normalized.csv",
+            "elapsed_seconds": 32.710800000000745
+        }
+    ]
+}

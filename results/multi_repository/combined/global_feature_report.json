@@ -1,0 +1,64 @@
+{
+    "projects": [
+        "karaf",
+        "hbase"
+    ],
+    "preprocessing": "shared",
+    "fit_partition": "global_train",
+    "evaluation_mode": "walk_forward",
+    "historical_features": 16,
+    "feature_count": 726,
+    "matrix_format": "csr",
+    "matrix_dtype": "float32",
+    "global_temporal_isolation": true,
+    "total_rows": 673777,
+    "total_failures": 645,
+    "partitions": [
+        {
+            "partition": "train",
+            "rows": 356797,
+            "features": 726,
+            "failures": 449,
+            "nonzero_values": 22828432,
+            "density": 0.08812888340462843,
+            "sparsity": 0.9118711165953716,
+            "memory_mb": 175.52819061279297,
+            "dtype": "float32",
+            "repository_counts": {
+                "hbase": 250090,
+                "karaf": 106707
+            }
+        },
+        {
+            "partition": "validation",
+            "rows": 120251,
+            "features": 726,
+            "failures": 88,
+            "nonzero_values": 7198496,
+            "density": 0.0824548963963416,
+            "sparsity": 0.9175451036036584,
+            "memory_mb": 55.37889099121094,
+            "dtype": "float32",
+            "repository_counts": {
+                "hbase": 103896,
+                "karaf": 16355
+            }
+        },
+        {
+            "partition": "test",
+            "rows": 196729,
+            "features": 726,
+            "failures": 108,
+            "nonzero_values": 11684730,
+            "density": 0.08181137209810248,
+            "sparsity": 0.9181886279018975,
+            "memory_mb": 89.89788055419922,
+            "dtype": "float32",
+            "repository_counts": {
+                "hbase": 187123,
+                "karaf": 9606
+            }
+        }
+    ],
+    "elapsed_seconds": 193.13888209988363
+}

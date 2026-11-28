@@ -1,0 +1,152 @@
+{
+    "dataset": "LRTS",
+    "projects": [
+        "karaf",
+        "hbase"
+    ],
+    "split_strategy": "chronological_build_grouped",
+    "train_ratio": 0.7,
+    "validation_ratio": 0.15,
+    "test_ratio": 0.15,
+    "temporal_embargo": true,
+    "repositories": [
+        {
+            "project": "karaf",
+            "original_rows": 132892,
+            "original_builds": 620,
+            "retained_rows": 131992,
+            "excluded_builds": 4,
+            "excluded_rows": 900,
+            "excluded_failures": 0,
+            "build_overlap": 0,
+            "temporal_overlap": false,
+            "commit_overlap": {
+                "train_validation": 0,
+                "train_test": 0,
+                "validation_test": 0
+            },
+            "partitions": [
+                {
+                    "project": "karaf",
+                    "partition": "train",
+                    "rows": 91906,
+                    "failures": 187,
+                    "passes": 91719,
+                    "failure_rate": 0.002034687615607251,
+                    "unique_builds": 434,
+                    "unique_runs": 434,
+                    "unique_tests": 228,
+                    "unique_commits": 426,
+                    "earliest_timestamp": "2020-12-12 05:35:55+00:00",
+                    "latest_timestamp": "2022-09-01 09:45:19+00:00",
+                    "latest_completion_timestamp": "2022-09-01 11:00:03+00:00"
+                },
+                {
+                    "project": "karaf",
+                    "partition": "validation",
+                    "rows": 19520,
+                    "failures": 42,
+                    "passes": 19478,
+                    "failure_rate": 0.002151639344262295,
+                    "unique_builds": 89,
+                    "unique_runs": 89,
+                    "unique_tests": 226,
+                    "unique_commits": 89,
+                    "earliest_timestamp": "2022-09-01 11:19:50+00:00",
+                    "latest_timestamp": "2022-10-18 09:34:55+00:00",
+                    "latest_completion_timestamp": "2022-10-18 11:15:19+00:00"
+                },
+                {
+                    "project": "karaf",
+                    "partition": "test",
+                    "rows": 20566,
+                    "failures": 43,
+                    "passes": 20523,
+                    "failure_rate": 0.0020908295244578433,
+                    "unique_builds": 93,
+                    "unique_runs": 93,
+                    "unique_tests": 236,
+                    "unique_commits": 93,
+                    "earliest_timestamp": "2022-10-18 12:10:03+00:00",
+                    "latest_timestamp": "2023-07-29 10:03:58+00:00",
+                    "latest_completion_timestamp": "2023-07-29 11:16:12+00:00"
+                }
+            ],
+            "output_files": {
+                "train": "data\\processed\\multi_repository\\splits\\karaf\\train.csv",
+                "validation": "data\\processed\\multi_repository\\splits\\karaf\\validation.csv",
+                "test": "data\\processed\\multi_repository\\splits\\karaf\\test.csv"
+            },
+            "elapsed_seconds": 1.7883258000947535
+        },
+        {
+            "project": "hbase",
+            "original_rows": 547289,
+            "original_builds": 278,
+            "retained_rows": 544895,
+            "excluded_builds": 1,
+            "excluded_rows": 2394,
+            "excluded_failures": 3,
+            "build_overlap": 0,
+            "temporal_overlap": false,
+            "commit_overlap": {
+                "train_validation": 1,
+                "train_test": 0,
+                "validation_test": 0
+            },
+            "partitions": [
+                {
+                    "project": "hbase",
+                    "partition": "train",
+                    "rows": 374600,
+                    "failures": 306,
+                    "passes": 374294,
+                    "failure_rate": 0.000816871329418046,
+                    "unique_builds": 194,
+                    "unique_runs": 386,
+                    "unique_tests": 1864,
+                    "unique_commits": 185,
+                    "earliest_timestamp": "2022-03-11 08:54:42+00:00",
+                    "latest_timestamp": "2023-04-05 00:25:53+00:00",
+                    "latest_completion_timestamp": "2023-04-05 01:05:09+00:00"
+                },
+                {
+                    "project": "hbase",
+                    "partition": "validation",
+                    "rows": 79134,
+                    "failures": 42,
+                    "passes": 79092,
+                    "failure_rate": 0.0005307453180680871,
+                    "unique_builds": 41,
+                    "unique_runs": 81,
+                    "unique_tests": 1845,
+                    "unique_commits": 37,
+                    "earliest_timestamp": "2023-04-05 06:12:31+00:00",
+                    "latest_timestamp": "2023-05-29 08:09:54+00:00",
+                    "latest_completion_timestamp": "2023-05-29 12:14:02+00:00"
+                },
+                {
+                    "project": "hbase",
+                    "partition": "test",
+                    "rows": 91161,
+                    "failures": 27,
+                    "passes": 91134,
+                    "failure_rate": 0.00029617928719518217,
+                    "unique_builds": 42,
+                    "unique_runs": 84,
+                    "unique_tests": 1805,
+                    "unique_commits": 40,
+                    "earliest_timestamp": "2023-05-30 13:39:50+00:00",
+                    "latest_timestamp": "2023-07-28 19:19:48+00:00",
+                    "latest_completion_timestamp": "2023-07-28 23:41:56+00:00"
+                }
+            ],
+            "output_files": {
+                "train": "data\\processed\\multi_repository\\splits\\hbase\\train.csv",
+                "validation": "data\\processed\\multi_repository\\splits\\hbase\\validation.csv",
+                "test": "data\\processed\\multi_repository\\splits\\hbase\\test.csv"
+            },
+            "elapsed_seconds": 16.15141270007007
+        }
+    ]
+}

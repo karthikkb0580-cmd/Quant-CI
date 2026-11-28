@@ -1,0 +1,7 @@
+project,partition,rows,failures,historical_features,missing_features
+karaf,train,106707,225,16,0
+karaf,validation,16355,19,16,0
+karaf,test,9606,28,16,0
+hbase,train,250090,224,16,0
+hbase,validation,103896,69,16,0
+hbase,test,187123,80,16,0

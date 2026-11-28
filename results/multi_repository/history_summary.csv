@@ -1,0 +1,7 @@
+project,partition,rows,failures,historical_features,new_test_executions,mean_historical_executions,mean_estimated_duration,missing_features,output_file
+karaf,train,91906,187,16,405,209.70098796596523,4.5880711379017685,0,data\processed\multi_repository\features\karaf\train_history.csv
+karaf,validation,19520,42,16,7,455.2351434426229,4.399765035860655,0,data\processed\multi_repository\features\karaf\validation_history.csv
+karaf,test,20566,43,16,10,541.8299134493825,4.716351332296022,0,data\processed\multi_repository\features\karaf\test_history.csv
+hbase,train,374600,306,16,5275,67.84078750667379,28.689642311799258,0,data\processed\multi_repository\features\hbase\train_history.csv
+hbase,validation,79134,42,16,94,138.69432860717265,27.99632535951677,0,data\processed\multi_repository\features\hbase\validation_history.csv
+hbase,test,91161,27,16,32,171.16571779598732,29.155402332137648,0,data\processed\multi_repository\features\hbase\test_history.csv

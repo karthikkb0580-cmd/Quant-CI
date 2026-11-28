@@ -1,0 +1,5 @@
+build_key,timestamp,completion_timestamp,executions,failures,stages,commits,original_partition
+karaf:PR-1669:1,2022-10-18 12:01:34+00:00,2022-10-18 13:41:45+00:00,225,0,1,1,validation
+karaf:PR-1670:1,2022-10-18 12:02:39+00:00,2022-10-18 13:19:50+00:00,225,0,1,1,validation
+karaf:PR-1671:1,2022-10-18 12:03:51+00:00,2022-10-18 13:23:41+00:00,225,0,1,1,validation
+karaf:PR-1672:1,2022-10-18 12:08:36+00:00,2022-10-18 13:28:25+00:00,225,0,1,1,validation

@@ -1,0 +1,107 @@
+{
+    "projects": [
+        "karaf",
+        "hbase"
+    ],
+    "preprocessing_fit_partition": "train",
+    "matrix_format": "csr",
+    "matrix_dtype": "float32",
+    "repositories": [
+        {
+            "project": "karaf",
+            "feature_count": 726,
+            "fit_partition": "train",
+            "code_tfidf_features": 500,
+            "test_tfidf_features": 200,
+            "numerical_features": 24,
+            "similarity_features": 2,
+            "partitions": [
+                {
+                    "project": "karaf",
+                    "partition": "train",
+                    "rows": 91906,
+                    "features": 726,
+                    "failures": 187,
+                    "nonzero_values": 4457658,
+                    "density": 0.06680765992849683,
+                    "sparsity": 0.9331923400715032,
+                    "memory_mb": 34.35982894897461,
+                    "dtype": "float32"
+                },
+                {
+                    "project": "karaf",
+                    "partition": "validation",
+                    "rows": 19520,
+                    "features": 726,
+                    "failures": 42,
+                    "nonzero_values": 991879,
+                    "density": 0.06999101013864427,
+                    "sparsity": 0.9300089898613557,
+                    "memory_mb": 7.641902923583984,
+                    "dtype": "float32"
+                },
+                {
+                    "project": "karaf",
+                    "partition": "test",
+                    "rows": 20566,
+                    "features": 726,
+                    "failures": 43,
+                    "nonzero_values": 994855,
+                    "density": 0.06663054028299402,
+                    "sparsity": 0.933369459717006,
+                    "memory_mb": 7.668598175048828,
+                    "dtype": "float32"
+                }
+            ],
+            "elapsed_seconds": 12.929897099966183
+        },
+        {
+            "project": "hbase",
+            "feature_count": 726,
+            "fit_partition": "train",
+            "code_tfidf_features": 500,
+            "test_tfidf_features": 200,
+            "numerical_features": 24,
+            "similarity_features": 2,
+            "partitions": [
+                {
+                    "project": "hbase",
+                    "partition": "train",
+                    "rows": 374600,
+                    "features": 726,
+                    "failures": 306,
+                    "nonzero_values": 26639151,
+                    "density": 0.09795260398971023,
+                    "sparsity": 0.9020473960102897,
+                    "memory_mb": 204.66958236694336,
+                    "dtype": "float32"
+                },
+                {
+                    "project": "hbase",
+                    "partition": "validation",
+                    "rows": 79134,
+                    "features": 726,
+                    "failures": 42,
+                    "nonzero_values": 4933087,
+                    "density": 0.08586556568518121,
+                    "sparsity": 0.9141344343148188,
+                    "memory_mb": 37.9383430480957,
+                    "dtype": "float32"
+                },
+                {
+                    "project": "hbase",
+                    "partition": "test",
+                    "rows": 91161,
+                    "features": 726,
+                    "failures": 27,
+                    "nonzero_values": 5360529,
+                    "density": 0.0809956972864556,
+                    "sparsity": 0.9190043027135444,
+                    "memory_mb": 41.24534606933594,
+                    "dtype": "float32"
+                }
+            ],
+            "elapsed_seconds": 157.35782340005971
+        }
+    ]
+}

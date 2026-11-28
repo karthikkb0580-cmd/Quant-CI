@@ -1,0 +1,131 @@
+{
+    "projects": [
+        "karaf",
+        "hbase"
+    ],
+    "feature_columns": [
+        "historical_executions",
+        "historical_failures",
+        "historical_failure_rate",
+        "smoothed_failure_rate",
+        "historical_mean_duration",
+        "historical_median_duration",
+        "historical_std_duration",
+        "last_failure",
+        "last_duration",
+        "recent_failure_rate_5",
+        "recent_failure_rate_10",
+        "consecutive_failures",
+        "days_since_last_execution",
+        "days_since_last_failure",
+        "is_new_test",
+        "estimated_duration_seconds"
+    ],
+    "total_retained_rows": 676887,
+    "repositories": [
+        {
+            "project": "karaf",
+            "source_rows": 132892,
+            "retained_rows": 131992,
+            "feature_count": 16,
+            "history_identity": [
+                "project",
+                "stage_id",
+                "test_id"
+            ],
+            "availability_rule": "build_completion_strictly_before_current_build_start",
+            "evaluation_mode": "walk_forward",
+            "partitions": [
+                {
+                    "project": "karaf",
+                    "partition": "train",
+                    "rows": 91906,
+                    "failures": 187,
+                    "historical_features": 16,
+                    "new_test_executions": 405,
+                    "mean_historical_executions": 209.70098796596523,
+                    "mean_estimated_duration": 4.5880711379017685,
+                    "missing_features": 0,
+                    "output_file": "data\\processed\\multi_repository\\features\\karaf\\train_history.csv"
+                },
+                {
+                    "project": "karaf",
+                    "partition": "validation",
+                    "rows": 19520,
+                    "failures": 42,
+                    "historical_features": 16,
+                    "new_test_executions": 7,
+                    "mean_historical_executions": 455.2351434426229,
+                    "mean_estimated_duration": 4.399765035860655,
+                    "missing_features": 0,
+                    "output_file": "data\\processed\\multi_repository\\features\\karaf\\validation_history.csv"
+                },
+                {
+                    "project": "karaf",
+                    "partition": "test",
+                    "rows": 20566,
+                    "failures": 43,
+                    "historical_features": 16,
+                    "new_test_executions": 10,
+                    "mean_historical_executions": 541.8299134493825,
+                    "mean_estimated_duration": 4.716351332296022,
+                    "missing_features": 0,
+                    "output_file": "data\\processed\\multi_repository\\features\\karaf\\test_history.csv"
+                }
+            ],
+            "elapsed_seconds": 11.33432580018416
+        },
+        {
+            "project": "hbase",
+            "source_rows": 547289,
+            "retained_rows": 544895,
+            "feature_count": 16,
+            "history_identity": [
+                "project",
+                "stage_id",
+                "test_id"
+            ],
+            "availability_rule": "build_completion_strictly_before_current_build_start",
+            "evaluation_mode": "walk_forward",
+            "partitions": [
+                {
+                    "project": "hbase",
+                    "partition": "train",
+                    "rows": 374600,
+                    "failures": 306,
+                    "historical_features": 16,
+                    "new_test_executions": 5275,
+                    "mean_historical_executions": 67.84078750667379,
+                    "mean_estimated_duration": 28.689642311799258,
+                    "missing_features": 0,
+                    "output_file": "data\\processed\\multi_repository\\features\\hbase\\train_history.csv"
+                },
+                {
+                    "project": "hbase",
+                    "partition": "validation",
+                    "rows": 79134,
+                    "failures": 42,
+                    "historical_features": 16,
+                    "new_test_executions": 94,
+                    "mean_historical_executions": 138.69432860717265,
+                    "mean_estimated_duration": 27.99632535951677,
+                    "missing_features": 0,
+                    "output_file": "data\\processed\\multi_repository\\features\\hbase\\validation_history.csv"
+                },
+                {
+                    "project": "hbase",
+                    "partition": "test",
+                    "rows": 91161,
+                    "failures": 27,
+                    "historical_features": 16,
+                    "new_test_executions": 32,
+                    "mean_historical_executions": 171.16571779598732,
+                    "mean_estimated_duration": 29.155402332137648,
+                    "missing_features": 0,
+                    "output_file": "data\\processed\\multi_repository\\features\\hbase\\test_history.csv"
+                }
+            ],
+            "elapsed_seconds": 33.72489649988711
+        }
+    ]
+}

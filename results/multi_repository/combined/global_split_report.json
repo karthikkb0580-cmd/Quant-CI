@@ -1,0 +1,100 @@
+{
+    "projects": [
+        "karaf",
+        "hbase"
+    ],
+    "split_strategy": "global_chronological_build_grouped",
+    "validation_start": "2022-10-14 04:17:16+00:00",
+    "test_start": "2023-03-27 13:25:24+00:00",
+    "original_builds": 898,
+    "original_rows": 680181,
+    "original_failures": 650,
+    "retained_rows": 673777,
+    "retained_failures": 645,
+    "embargoed_builds": 3,
+    "embargoed_rows": 6404,
+    "embargoed_failures": 5,
+    "train_validation_isolation": true,
+    "validation_test_isolation": true,
+    "partitions": [
+        {
+            "project": "hbase",
+            "partition": "train",
+            "rows": 250090,
+            "failures": 224,
+            "passes": 249866,
+            "failure_rate": 0.0008956775560798113,
+            "builds": 125,
+            "runs": 249,
+            "earliest_start": "2022-03-11 08:54:42+00:00",
+            "latest_start": "2022-10-13 02:58:52+00:00",
+            "latest_completion": "2022-10-13 06:49:44+00:00"
+        },
+        {
+            "project": "hbase",
+            "partition": "validation",
+            "rows": 103896,
+            "failures": 69,
+            "passes": 103827,
+            "failure_rate": 0.0006641256641256641,
+            "builds": 60,
+            "runs": 120,
+            "earliest_start": "2022-11-10 15:00:01+00:00",
+            "latest_start": "2023-03-27 08:49:12+00:00",
+            "latest_completion": "2023-03-27 13:21:08+00:00"
+        },
+        {
+            "project": "hbase",
+            "partition": "test",
+            "rows": 187123,
+            "failures": 80,
+            "passes": 187043,
+            "failure_rate": 0.0004275262795059934,
+            "builds": 91,
+            "runs": 180,
+            "earliest_start": "2023-03-27 13:25:24+00:00",
+            "latest_start": "2023-07-28 19:19:48+00:00",
+            "latest_completion": "2023-07-28 23:41:56+00:00"
+        },
+        {
+            "project": "karaf",
+            "partition": "train",
+            "rows": 106707,
+            "failures": 225,
+            "passes": 106482,
+            "failure_rate": 0.002108577694059434,
+            "builds": 502,
+            "runs": 502,
+            "earliest_start": "2020-12-12 05:35:55+00:00",
+            "latest_start": "2022-10-13 21:50:30+00:00",
+            "latest_completion": "2022-10-13 23:22:08+00:00"
+        },
+        {
+            "project": "karaf",
+            "partition": "validation",
+            "rows": 16355,
+            "failures": 19,
+            "passes": 16336,
+            "failure_rate": 0.0011617242433506574,
+            "builds": 73,
+            "runs": 73,
+            "earliest_start": "2022-10-14 04:17:16+00:00",
+            "latest_start": "2023-03-17 09:55:19+00:00",
+            "latest_completion": "2023-03-17 11:29:22+00:00"
+        },
+        {
+            "project": "karaf",
+            "partition": "test",
+            "rows": 9606,
+            "failures": 28,
+            "passes": 9578,
+            "failure_rate": 0.0029148448886112846,
+            "builds": 44,
+            "runs": 44,
+            "earliest_start": "2023-03-29 12:38:16+00:00",
+            "latest_start": "2023-07-29 10:03:58+00:00",
+            "latest_completion": "2023-07-29 11:16:12+00:00"
+        }
+    ],
+    "elapsed_seconds": 16.224576300010085
+}

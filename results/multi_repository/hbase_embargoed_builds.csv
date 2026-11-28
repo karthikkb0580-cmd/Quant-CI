@@ -1,0 +1,2 @@
+build_key,timestamp,completion_timestamp,executions,failures,stages,commits,original_partition
+hbase:PR-5259:1,2023-05-30 08:39:49+00:00,2023-05-30 13:55:47+00:00,2394,3,2,1,validation

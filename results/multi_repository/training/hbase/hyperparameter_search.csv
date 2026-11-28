@@ -1,0 +1,15 @@
+model,parameters,validation_average_precision,validation_roc_auc,training_seconds
+logistic_regression,"{'C': 0.01, 'class_weight': None}",0.03335169577182469,0.7773909467696449,6.827740899985656
+logistic_regression,"{'C': 0.01, 'class_weight': 'balanced'}",0.03424586868697534,0.8275320723545575,21.813344900030643
+logistic_regression,"{'C': 0.1, 'class_weight': None}",0.02861594353375103,0.8196455363615126,12.866284599993378
+logistic_regression,"{'C': 0.1, 'class_weight': 'balanced'}",0.027782898117219467,0.8167483677838707,55.05382649996318
+logistic_regression,"{'C': 1.0, 'class_weight': None}",0.016777267775022708,0.8464563871368604,19.49582950002514
+logistic_regression,"{'C': 1.0, 'class_weight': 'balanced'}",0.02077315173431791,0.7982412886259039,99.12037919997238
+logistic_regression,"{'C': 10.0, 'class_weight': None}",0.00727351114475044,0.8344649269205482,50.47873339988291
+logistic_regression,"{'C': 10.0, 'class_weight': 'balanced'}",0.007036924624985732,0.7353076465502502,160.99686160008423
+random_forest,"{'n_estimators': 100, 'max_depth': 8, 'min_samples_leaf': 5, 'class_weight': None}",0.0209586426368303,0.7646476496328568,14.151676200097427
+random_forest,"{'n_estimators': 100, 'max_depth': 8, 'min_samples_leaf': 5, 'class_weight': 'balanced'}",0.0172221100437945,0.8119959155462114,15.604545099893585
+random_forest,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 5, 'class_weight': None}",0.025906760292057258,0.7602335616388871,20.808340300107375
+random_forest,"{'n_estimators': 100, 'max_depth': 12, 'min_samples_leaf': 5, 'class_weight': 'balanced'}",0.01737420882564206,0.7967606440239576,26.115381499985233
+random_forest,"{'n_estimators': 150, 'max_depth': 16, 'min_samples_leaf': 5, 'class_weight': None}",0.03962450929527925,0.7870883636416182,44.49419880006462
+random_forest,"{'n_estimators': 150, 'max_depth': 16, 'min_samples_leaf': 5, 'class_weight': 'balanced'}",0.024087307589362707,0.8005905720402762,52.42527090013027
