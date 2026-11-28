@@ -1,0 +1,67 @@
+name: QuantCI CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: quantci-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Automated Regression Testing
+    runs-on: windows-latest
+    timeout-minutes: 20
+
+    env:
+      PYTHONUTF8: "1"
+      OMP_NUM_THREADS: "2"
+      MKL_NUM_THREADS: "2"
+      OPENBLAS_NUM_THREADS: "2"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Upgrade pip
+        run: python -m pip install --upgrade pip
+
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Validate dependencies
+        run: python -m pip check
+
+      - name: Verify environment
+        run: python verify_env.py
+
+      - name: Validate Python syntax
+        run: python -m compileall -q src tests
+
+      - name: Execute regression tests
+        run: python -m pytest tests -q --junitxml=results/ci_test_report.xml
+
+      - name: Upload test report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: quantci-test-report
+          path: results/ci_test_report.xml
+          retention-days: 14
+          if-no-files-found: warn
