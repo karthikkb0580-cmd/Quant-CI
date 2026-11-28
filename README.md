@@ -2,6 +2,7 @@
 
 Machine learning and quantum-classical optimization for budget-constrained software test selection.
 
+[![QuantCI CI](https://github.com/karthikkb0580-cmd/Quant-CI/actions/workflows/ci.yml/badge.svg)](https://github.com/karthikkb0580-cmd/Quant-CI/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/Python-3.14+-3776AB?logo=python&logoColor=white)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-F7931E?logo=scikitlearn&logoColor=white)
 ![Qiskit](https://img.shields.io/badge/Qiskit-Quantum-6929C4?logo=qiskit&logoColor=white)
