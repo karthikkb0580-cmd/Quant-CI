@@ -1,0 +1,52 @@
+{
+    "selected_projects": [
+        "karaf",
+        "hbase"
+    ],
+    "source_dataset": "LRTS",
+    "extraction_results": [
+        {
+            "project": "karaf",
+            "extracted_files": 1452,
+            "test_result_archives": 726,
+            "commit_files": 726,
+            "extracted_bytes": 18049044,
+            "extracted_size_mb": 17.21
+        },
+        {
+            "project": "hbase",
+            "extracted_files": 1513,
+            "test_result_archives": 1018,
+            "commit_files": 495,
+            "extracted_bytes": 39523191,
+            "extracted_size_mb": 37.69
+        }
+    ],
+    "metadata_results": [
+        {
+            "project": "karaf",
+            "metadata_rows": 620,
+            "unique_pull_requests": 442,
+            "unique_builds": 620,
+            "reported_failed_classes": 272,
+            "reported_passed_classes": 132620,
+            "missing_timestamps": 0,
+            "earliest_timestamp": "2020-12-12 05:35:55+00:00",
+            "latest_timestamp": "2023-07-29 10:03:58+00:00",
+            "missing_commit_sha": 0
+        },
+        {
+            "project": "hbase",
+            "metadata_rows": 553,
+            "unique_pull_requests": 109,
+            "unique_builds": 278,
+            "reported_failed_classes": 378,
+            "reported_passed_classes": 546911,
+            "missing_timestamps": 0,
+            "earliest_timestamp": "2022-03-11 08:54:42+00:00",
+            "latest_timestamp": "2023-07-28 19:19:48+00:00",
+            "missing_commit_sha": 0
+        }
+    ],
+    "elapsed_seconds": 7.489431099966168
+}

@@ -1,0 +1,106 @@
+{
+    "archives_inspected": 1,
+    "repositories_discovered": 10,
+    "repositories": [
+        {
+            "repository": "kafka",
+            "test_result_archives": 60579,
+            "commit_files": 18777,
+            "test_runs": 18270,
+            "commit_runs": 18270,
+            "matched_runs": 18270,
+            "uncompressed_size_mb": 3028.32,
+            "source_archive": "data\\raw\\processed_lrts\\long_running_test_suites.zip"
+        },
+        {
+            "repository": "tvm",
+            "test_result_archives": 40496,
+            "commit_files": 8086,
+            "test_runs": 6512,
+            "commit_runs": 6512,
+            "matched_runs": 6512,
+            "uncompressed_size_mb": 758.8,
+            "source_archive": "data\\raw\\processed_lrts\\long_running_test_suites.zip"
+        },
+        {
+            "repository": "james",
+            "test_result_archives": 5838,
+            "commit_files": 4353,
+            "test_runs": 4353,
+            "commit_runs": 4353,
+            "matched_runs": 4353,
+            "uncompressed_size_mb": 471.54,
+            "source_archive": "data\\raw\\processed_lrts\\long_running_test_suites.zip"
+        },
+        {
+            "repository": "hive",
+            "test_result_archives": 2131,
+            "commit_files": 2207,
+            "test_runs": 2131,
+            "commit_runs": 2131,
+            "matched_runs": 2131,
+            "uncompressed_size_mb": 449.12,
+            "source_archive": "data\\raw\\processed_lrts\\long_running_test_suites.zip"
+        },
+        {
+            "repository": "hadoop",
+            "test_result_archives": 2109,
+            "commit_files": 2124,
+            "test_runs": 2109,
+            "commit_runs": 2109,
+            "matched_runs": 2109,
+            "uncompressed_size_mb": 147.88,
+            "source_archive": "data\\raw\\processed_lrts\\long_running_test_suites.zip"
+        },
+        {
+            "repository": "jackrabbit-oak",
+            "test_result_archives": 1657,
+            "commit_files": 1657,
+            "test_runs": 1657,
+            "commit_runs": 1657,
+            "matched_runs": 1657,
+            "uncompressed_size_mb": 148.42,
+            "source_archive": "data\\raw\\processed_lrts\\long_running_test_suites.zip"
+        },
+        {
+            "repository": "karaf",
+            "test_result_archives": 726,
+            "commit_files": 726,
+            "test_runs": 726,
+            "commit_runs": 726,
+            "matched_runs": 726,
+            "uncompressed_size_mb": 17.21,
+            "source_archive": "data\\raw\\processed_lrts\\long_running_test_suites.zip"
+        },
+        {
+            "repository": "hbase",
+            "test_result_archives": 1018,
+            "commit_files": 495,
+            "test_runs": 485,
+            "commit_runs": 485,
+            "matched_runs": 485,
+            "uncompressed_size_mb": 37.69,
+            "source_archive": "data\\raw\\processed_lrts\\long_running_test_suites.zip"
+        },
+        {
+            "repository": "activemq",
+            "test_result_archives": 446,
+            "commit_files": 446,
+            "test_runs": 446,
+            "commit_runs": 446,
+            "matched_runs": 446,
+            "uncompressed_size_mb": 18.7,
+            "source_archive": "data\\raw\\processed_lrts\\long_running_test_suites.zip"
+        },
+        {
+            "repository": "log4j",
+            "test_result_archives": 528,
+            "commit_files": 410,
+            "test_runs": 270,
+            "commit_runs": 301,
+            "matched_runs": 270,
+            "uncompressed_size_mb": 164.25,
+            "source_archive": "data\\raw\\processed_lrts\\long_running_test_suites.zip"
+        }
+    ]
+}

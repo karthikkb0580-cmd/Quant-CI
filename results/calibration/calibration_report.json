@@ -1,0 +1,84 @@
+{
+    "dataset": "LRTS",
+    "project": "activemq",
+    "selected_method": "platt",
+    "selection_metric": "brier_score",
+    "selection_partition": "validation",
+    "validation_strategy": "three_fold_stratified_group_cross_validation",
+    "group_column": "run_id",
+    "validation_rows": 19738,
+    "validation_failures": 37,
+    "test_rows": 27786,
+    "test_failures": 15,
+    "validation_results": {
+        "uncalibrated": {
+            "brier_score": 0.04785959706520927,
+            "log_loss": 0.22350441725701223,
+            "expected_calibration_error": 0.18889694572908847,
+            "average_precision": 0.06940485926834601,
+            "roc_auc": 0.9468891001554318,
+            "mean_predicted_probability": 0.19077150242176252,
+            "observed_failure_rate": 0.0018745566926740298
+        },
+        "platt": {
+            "brier_score": 0.0018454313433237085,
+            "log_loss": 0.01069102899473055,
+            "expected_calibration_error": 0.00017825874093774075,
+            "average_precision": 0.052232271938921264,
+            "roc_auc": 0.9409578605558505,
+            "mean_predicted_probability": 0.0018793221006758608,
+            "observed_failure_rate": 0.0018745566926740298
+        },
+        "isotonic": {
+            "brier_score": 0.001881568044609962,
+            "log_loss": 0.01225087382857345,
+            "expected_calibration_error": 0.0003737280505510062,
+            "average_precision": 0.03174801297825104,
+            "roc_auc": 0.9125486839054678,
+            "mean_predicted_probability": 0.0018398338031796148,
+            "observed_failure_rate": 0.0018745566926740298
+        }
+    },
+    "test_results": {
+        "uncalibrated": {
+            "brier_score": 0.05024522993109551,
+            "log_loss": 0.22825126005321458,
+            "expected_calibration_error": 0.19248369152127462,
+            "average_precision": 0.025950716698305308,
+            "roc_auc": 0.9731002364576957,
+            "mean_predicted_probability": 0.19302353172857326,
+            "observed_failure_rate": 0.0005398402072986396
+        },
+        "platt": {
+            "brier_score": 0.000622707088325415,
+            "log_loss": 0.004298100299133886,
+            "expected_calibration_error": 0.0017911086474851998,
+            "average_precision": 0.025950716698305308,
+            "roc_auc": 0.9731002364576957,
+            "mean_predicted_probability": 0.0023309488547838394,
+            "observed_failure_rate": 0.0005398402072986396
+        },
+        "isotonic": {
+            "brier_score": 0.0006345949712364721,
+            "log_loss": 0.005029086524140358,
+            "expected_calibration_error": 0.0017323807427887194,
+            "average_precision": 0.01941659447340051,
+            "roc_auc": 0.9702543420594625,
+            "mean_predicted_probability": 0.002272220950087359,
+            "observed_failure_rate": 0.0005398402072986396
+        }
+    },
+    "selected_method_test_results": {
+        "brier_score": 0.000622707088325415,
+        "log_loss": 0.004298100299133886,
+        "expected_calibration_error": 0.0017911086474851998,
+        "average_precision": 0.025950716698305308,
+        "roc_auc": 0.9731002364576957,
+        "mean_predicted_probability": 0.0023309488547838394,
+        "observed_failure_rate": 0.0005398402072986396
+    },
+    "test_data_used_for_fitting": false,
+    "original_model_retrained": false,
+    "original_predictions_preserved": true,
+    "elapsed_seconds": 1.9044693999458104
+}

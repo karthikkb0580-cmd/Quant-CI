@@ -1,0 +1,11 @@
+repository,test_result_archives,commit_files,test_runs,commit_runs,matched_runs,uncompressed_size_mb,source_archive
+kafka,60579,18777,18270,18270,18270,3028.32,data\raw\processed_lrts\long_running_test_suites.zip
+tvm,40496,8086,6512,6512,6512,758.8,data\raw\processed_lrts\long_running_test_suites.zip
+james,5838,4353,4353,4353,4353,471.54,data\raw\processed_lrts\long_running_test_suites.zip
+hive,2131,2207,2131,2131,2131,449.12,data\raw\processed_lrts\long_running_test_suites.zip
+hadoop,2109,2124,2109,2109,2109,147.88,data\raw\processed_lrts\long_running_test_suites.zip
+jackrabbit-oak,1657,1657,1657,1657,1657,148.42,data\raw\processed_lrts\long_running_test_suites.zip
+karaf,726,726,726,726,726,17.21,data\raw\processed_lrts\long_running_test_suites.zip
+hbase,1018,495,485,485,485,37.69,data\raw\processed_lrts\long_running_test_suites.zip
+activemq,446,446,446,446,446,18.7,data\raw\processed_lrts\long_running_test_suites.zip
+log4j,528,410,270,301,270,164.25,data\raw\processed_lrts\long_running_test_suites.zip

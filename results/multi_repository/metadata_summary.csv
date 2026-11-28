@@ -1,0 +1,3 @@
+project,metadata_rows,unique_pull_requests,unique_builds,reported_failed_classes,reported_passed_classes,missing_timestamps,earliest_timestamp,latest_timestamp,missing_commit_sha
+karaf,620,442,620,272,132620,0,2020-12-12 05:35:55+00:00,2023-07-29 10:03:58+00:00,0
+hbase,553,109,278,378,546911,0,2022-03-11 08:54:42+00:00,2023-07-28 19:19:48+00:00,0
